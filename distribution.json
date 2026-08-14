@@ -603,16 +603,6 @@
           }
         },
         {
-          "id": "generated.forgemod:crash_assistant:1.11.12@jar",
-          "name": "Crash Assistant",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 3503813,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/CrashAssistant-forge-1.19-1.20.1-1.11.12.jar",
-            "MD5": "04c5948360f29f71eef2fc4628094c33"
-          }
-        },
-        {
           "id": "net.cristellib:cristellib:1.1.6@jar",
           "name": "Cristel Lib",
           "type": "ForgeMod",

@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///C:/Users/mojoh/Documents/Dawn/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "DawnMineZ (Minecraft 1.20.1)",
+    "description": "DawnMineZ",
+    "icon": "",
+    "address": "170.23.230.137:25567",
+   "discord": {
+  "shortId": "Dawn",
+  "largeImageText": "Crimson Dawn Server",
+  "largeImageKey": "seal-circle"
+},
+    "mainServer": true,
+    "autoconnect": false
+  },
+  "forge": {
+    "version": "47.4.22"
+  },
+  "untrackedFiles": []
+}

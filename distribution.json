@@ -703,6 +703,36 @@
           }
         },
         {
+          "id": "de.markusbordihn.easynpc.bundle:easy_npc_bundle:7.7.7@jar",
+          "name": "Easy NPC: Bundle",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 25439,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/easy_npc_bundle-forge-1.20.1-7.7.7.jar",
+            "MD5": "0616cee21caed3907dda8777890602e9"
+          }
+        },
+        {
+          "id": "de.markusbordihn.easynpc.configui:easy_npc_config_ui:7.7.7@jar",
+          "name": "Easy NPC: Config UI",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1033291,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/easy_npc_config_ui-forge-1.20.1-7.7.7.jar",
+            "MD5": "93738b7becec2ff741f0de075537140b"
+          }
+        },
+        {
+          "id": "de.markusbordihn.easynpc:easy_npc:7.7.7@jar",
+          "name": "Easy NPC",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2746263,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/easy_npc-forge-1.20.1-7.7.7.jar",
+            "MD5": "5a8ee937ad209098563e541eb651da8a"
+          }
+        },
+        {
           "id": "me.jellysquid.mods.sodium.client:embeddium:0.3.31+mc1.20.1@jar",
           "name": "Embeddium",
           "type": "ForgeMod",

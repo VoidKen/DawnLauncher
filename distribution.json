@@ -1153,16 +1153,6 @@
           }
         },
         {
-          "id": "com.cheeseman:superbosses:2.0.0@jar",
-          "name": "Super Bosses",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 25928,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/superbosses-2.0.0.jar",
-            "MD5": "6fbe950992de0a8950a5b29d0957c1a2"
-          }
-        },
-        {
           "id": "terrablender.core:terrablender:3.0.1.10@jar",
           "name": "TerraBlender",
           "type": "ForgeMod",

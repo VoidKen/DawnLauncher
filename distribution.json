@@ -463,6 +463,16 @@
           }
         },
         {
+          "id": "moe.plushie.armourers_workshop.compat:armourers_workshop:3.4.0-beta.3@jar",
+          "name": "Armourer's Workshop",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6527569,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/armourersworkshop-forge-1.20.1-3.4.0-beta.3.jar",
+            "MD5": "d0a199f7ca4a8664ebd543397b0adfd4"
+          }
+        },
+        {
           "id": "artifacts:artifacts:9.5.19@jar",
           "name": "Artifacts",
           "type": "ForgeMod",

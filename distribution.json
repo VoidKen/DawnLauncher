@@ -443,6 +443,16 @@
           }
         },
         {
+          "id": "dev.uncandango:alltheleaks:1.1.1+1.20.1-forge@jar",
+          "name": "All The Leaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1187126,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/alltheleaks-1.1.1+1.20.1-forge.jar",
+            "MD5": "df84fbdadaf7947dc530872fa60fbc56"
+          }
+        },
+        {
           "id": "squeek.appleskin:appleskin:2.5.1+mc1.20.1@jar",
           "name": "AppleSkin",
           "type": "ForgeMod",
@@ -860,6 +870,16 @@
             "size": 462659,
             "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/farsight-1.20.1-5.1.jar",
             "MD5": "77b2043d831fc5cb1a9f954347c38bc6"
+          }
+        },
+        {
+          "id": "malte0811.ferritecore:ferritecore:6.0.1@jar",
+          "name": "Ferrite Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 123034,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/ferritecore-6.0.1-forge.jar",
+            "MD5": "f52f538207a4829d7060550092ce2383"
           }
         },
         {

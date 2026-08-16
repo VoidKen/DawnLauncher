@@ -493,6 +493,16 @@
           }
         },
         {
+          "id": "net.blay09.mods:balm:7.3.42@jar",
+          "name": "Balm",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 561670,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/balm-forge-1.20.1-7.3.42.jar",
+            "MD5": "d2e369fb61ea048f1a24c6d467f784a0"
+          }
+        },
+        {
           "id": "betteradvancements:betteradvancements:0.6.0.73@jar",
           "name": "Better Advancements",
           "type": "ForgeMod",

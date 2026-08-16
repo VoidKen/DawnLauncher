@@ -733,6 +733,16 @@
           }
         },
         {
+          "id": "xyz.vsngamer:elevatorid:1.20.1-1.9.1-forge@jar",
+          "name": "Elevator Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 187868,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/elevatorid-1.20.1-1.9.1-forge.jar",
+            "MD5": "b4784b8ae695f179d0aefaaa82018968"
+          }
+        },
+        {
           "id": "me.jellysquid.mods.sodium.client:embeddium:0.3.31+mc1.20.1@jar",
           "name": "Embeddium",
           "type": "ForgeMod",
@@ -1063,6 +1073,16 @@
           }
         },
         {
+          "id": "oreexcavation.core:oreexcavation:1.13.174@jar",
+          "name": "OreExcavation",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 277361,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/oreexcavation-1.13.174.jar",
+            "MD5": "1e87b83ed930e864de2a3150255f30bf"
+          }
+        },
+        {
           "id": "dev.shadowsoffire:placebo:8.6.3@jar",
           "name": "Placebo",
           "type": "ForgeMod",
@@ -1240,6 +1260,16 @@
             "size": 435496,
             "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/watut-forge-1.20.1-1.2.3.jar",
             "MD5": "345d3ecdf94dffaa0e3ba55538c65f80"
+          }
+        },
+        {
+          "id": "net.blay09.mods:waystones:14.1.20@jar",
+          "name": "Waystones",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 533738,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/waystones-forge-1.20.1-14.1.20.jar",
+            "MD5": "eb4dcdc36470b7fd858c39547ad1c7d2"
           }
         },
         {

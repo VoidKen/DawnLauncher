@@ -1283,6 +1283,16 @@
           }
         },
         {
+          "id": "com.voidk:voidban:1.0.0@jar",
+          "name": "Void Ban",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 22313,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/voidban-1.0.4.jar",
+            "MD5": "86d7c4257ac0fb34b2615335edc2bcd4"
+          }
+        },
+        {
           "id": "com.corosus.watut.loader:watut:1.20.1-1.2.3@jar",
           "name": "What Are They Up To",
           "type": "ForgeMod",

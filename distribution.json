@@ -1223,6 +1223,16 @@
           }
         },
         {
+          "id": "de.maxhenkel.voicechat:voicechat:1.20.1-2.6.22@jar",
+          "name": "Simple Voice Chat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4923439,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/voicechat-forge-1.20.1-2.6.22.jar",
+            "MD5": "4e513ad55bf64e5ea4716544d51f1fde"
+          }
+        },
+        {
           "id": "com.corosus.watut.loader:watut:1.20.1-1.2.3@jar",
           "name": "What Are They Up To",
           "type": "ForgeMod",

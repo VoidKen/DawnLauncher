@@ -553,16 +553,6 @@
           }
         },
         {
-          "id": "generated.forgemod:brutalnightmare:6.8.509@jar",
-          "name": "Brutal Nightmare : Insane Difficulty",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 915640,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/BrutalNightmare-v6.8.509_MOD.jar",
-            "MD5": "3ceecfb2d643287d1f188644d8b3b42f"
-          }
-        },
-        {
           "id": "com.ldtteam:cleanswing:1.8@jar",
           "name": "Clean Swing Through Grass",
           "type": "ForgeMod",
@@ -883,16 +873,6 @@
           }
         },
         {
-          "id": "generated.forgemod:fokusapi:4.5@jar",
-          "name": "FokusAPI",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 65846,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/FokusAPI-v4.5_MOD.jar",
-            "MD5": "001aef94ce8c1eacb8ab4e408a8958a9"
-          }
-        },
-        {
           "id": "com.mrcrayfish:framework:0.8.0@jar",
           "name": "Framework",
           "type": "ForgeMod",
@@ -1130,16 +1110,6 @@
             "size": 282474,
             "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/Placebo-1.20.1-8.6.3.jar",
             "MD5": "13133ab9989e8474931cd7a86bd19cc5"
-          }
-        },
-        {
-          "id": "generated.forgemod:reactify:1.4@jar",
-          "name": "Reactify",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 9350,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/reactify-1.4.b0_MOD.jar",
-            "MD5": "a7a0b18d373667fbaf995cfe149be557"
           }
         },
         {

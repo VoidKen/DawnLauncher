@@ -773,66 +773,6 @@
           }
         },
         {
-          "id": "fzzyhmstrs.emi_loot:emi_loot:0.7.9+1.20.1+forge@jar",
-          "name": "EMI Loot",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 441180,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/emi_loot-0.7.9+1.20.1+forge.jar",
-            "MD5": "dbcc539eea0c8ebc84961f476c5d381a"
-          }
-        },
-        {
-          "id": "cc.abbie:emi_ores:1.3+1.20.1+forge@jar",
-          "name": "EMI Ores",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 119983,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/emi_ores-1.3+1.20.1+forge.jar",
-            "MD5": "5bf67bea892bf770287f85611149d6b4"
-          }
-        },
-        {
-          "id": "dev.emi.emi.platform:emi:1.1.24+1.20.1+forge@jar",
-          "name": "EMI",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1121750,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/emi-1.1.24+1.20.1+forge.jar",
-            "MD5": "c86d5772fba9fbd4d612f2fe82397f72"
-          }
-        },
-        {
-          "id": "dev.mayo:emidelight:1.0.0@jar",
-          "name": "EMI Delight",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 19839,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/emidelight-1.0.1-1.20.1-forge.jar",
-            "MD5": "0962225ee517981daa6e988f03e1845e"
-          }
-        },
-        {
-          "id": "io.github.prismwork:emiffect:1.1.2+mc1.20.1@jar",
-          "name": "EMIffect",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 19646,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/emiffect-forge-1.1.2+mc1.20.1.jar",
-            "MD5": "7bbf2905c311d974f04b2312885d0f46"
-          }
-        },
-        {
-          "id": "com.mrbysco:emiprofessions:1.0.4@jar",
-          "name": "EMI Professions (EMIP)",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 25102,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/EMIProfessions-forge-1.20.1-1.0.4.jar",
-            "MD5": "a0fe2a08c8ec13fe548c7b2a090cdc84"
-          }
-        },
-        {
           "id": "generated.forgemod:explorify:1.6.5@jar",
           "name": "Explorify",
           "type": "ForgeMod",
@@ -990,6 +930,46 @@
             "size": 553487,
             "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/Jade-1.20.1-Forge-11.13.3.jar",
             "MD5": "a53aade6b5915ebe8357abb68cf1f778"
+          }
+        },
+        {
+          "id": "com.lingmu0.jeiplusplusmod:jei_plus_plus:1.0.3-1.20.1@jar",
+          "name": "JEI++",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 306286,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/jei_plus_plus-1.0.3-1.20.1.jar",
+            "MD5": "d14599a547026b9b0da4f57496f3b656"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:15.49.0.190@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1669248,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/jei-1.20.1-forge-15.49.0.190.jar",
+            "MD5": "f4e602d7893bc37f797762bb19012d27"
+          }
+        },
+        {
+          "id": "de.larsensmods:jeiworldgen:1.4.1@jar",
+          "name": "JEIWorldGen",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 128777,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/jeiworldgen-forge-1.20.1-1.4.1.jar",
+            "MD5": "43390c05ccece414e35adec383fae610"
+          }
+        },
+        {
+          "id": "jeresources:jeresources:1.4.0.247@jar",
+          "name": "Just Enough Resources",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 276231,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/JustEnoughResources-1.20.1-1.4.0.247.jar",
+            "MD5": "bd7166a2e9361ef5e8b616edfa2028f4"
           }
         },
         {

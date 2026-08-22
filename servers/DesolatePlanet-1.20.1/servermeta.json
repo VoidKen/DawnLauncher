@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///C:/Users/mojoh/Documents/Dawn/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "DesolatePlanet (Minecraft 1.20.1)",
+    "description": "DesolatePlanet Running Minecraft 1.20.1 (Forge v47.4.23)",
+    "icon": "",
+    "address": "170.23.230.137:25567",
+    "discord": {
+      "shortId": "Dawn",
+      "largeImageText": "Desolate planet",
+      "largeImageKey": "seal-circle"
+    },
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "forge": {
+    "version": "47.4.23"
+  },
+  "untrackedFiles": []
+}

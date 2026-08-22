@@ -3200,36 +3200,6 @@
           }
         },
         {
-          "id": "xyz.iwolfking.rechiseledchipped:rechiseled_chipped:1.2@jar",
-          "name": "Rechiseled: Chipped",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 182898,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/rechiseled_chipped-2.0-1.20.1.jar",
-            "MD5": "2165ecf5328ff9fcee941014e4b5298c"
-          }
-        },
-        {
-          "id": "com.supermartijn642:rechiseled:1.2.5@jar",
-          "name": "Rechiseled",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 11867985,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/rechiseled-1.2.5-forge-mc1.20.1.jar",
-            "MD5": "bd1cccb0cf12ec2a456e5a5af3a1f7a8"
-          }
-        },
-        {
-          "id": "com.supermartijn642.rechiseled.create:rechiseledcreate:1.1.0@jar",
-          "name": "Rechiseled: Create",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1005120,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/rechiseledcreate-1.1.0-forge-mc1.20.jar",
-            "MD5": "8c3973442cc48fdfb7338281bada43b8"
-          }
-        },
-        {
           "id": "com.mrcrayfish.furniture.refurbished:refurbished_furniture:1.0.20@jar",
           "name": "MrCrayfish's Furniture Mod: Refurbished",
           "type": "ForgeMod",

@@ -2180,16 +2180,6 @@
           }
         },
         {
-          "id": "shcm.shsupercm:citresewn:1.20.1-5@jar",
-          "name": "CIT Resewn",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 188383,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/citresewn-1.20.1-5.jar",
-            "MD5": "51962ddc4bc262bb98dd580a8d98cabf"
-          }
-        },
-        {
           "id": "me.shedaniel.clothconfig:cloth_config:11.1.136@jar",
           "name": "Cloth Config v10 API",
           "type": "ForgeMod",

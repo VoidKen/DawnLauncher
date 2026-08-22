@@ -1960,6 +1960,16 @@
           }
         },
         {
+          "id": "moe.plushie.armourers_workshop.init.platform:armourers_workshop:2.1.4@jar",
+          "name": "Armourer's Workshop",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3565266,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/armourersworkshop-forge-1.20.1-2.1.4.jar",
+            "MD5": "3d720853815f7ed3c77e6bdab1e9e250"
+          }
+        },
+        {
           "id": "com.alessandro:astages:2.1.0-1.20.1@jar",
           "name": "AStages",
           "type": "ForgeMod",

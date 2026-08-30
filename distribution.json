@@ -8,3545 +8,931 @@
   },
   "servers": [
     {
-      "id": "DawnMineZ-1.20.1",
-      "name": "DawnMineZ (Minecraft 1.20.1)",
-      "description": "DawnMineZ",
-      "icon": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/SealCircle.png",
+      "id": "VoidHardcoreServer-1.21.11",
+      "name": "VoidHardcoreServer (Minecraft 1.21.11)",
+      "description": "VoidHardcoreServer Running Minecraft 1.21.11 (Fabric v0.19.5)",
+      "icon": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/VoidVerseLogo.png",
       "version": "1.0.0",
-      "address": "170.23.230.137:25567",
-      "minecraftVersion": "1.20.1",
+      "address": "voidserver.kinetic.host",
+      "minecraftVersion": "1.21.11",
       "discord": {
-        "shortId": "Dawn",
-        "largeImageText": "Crimson Dawn Server",
-        "largeImageKey": "seal-circle"
+        "shortId": "VoidsHardcore",
+        "largeImageText": "VoidsHardCoreSevrer",
+        "largeImageKey": "voidshardcore"
       },
       "mainServer": true,
       "autoconnect": true,
       "modules": [
         {
-          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.4.22",
-          "name": "Minecraft Forge (lowcodelanguage)",
-          "type": "ForgeHosted",
-          "classpath": true,
+          "id": "net.fabricmc:fabric-loader:0.19.5",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
           "artifact": {
-            "size": 7393,
-            "MD5": "e8331ab685caa10c4e1ca6613b14a7d0",
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.4.22/lowcodelanguage-1.20.1-47.4.22.jar"
+            "size": 1984980,
+            "MD5": "23bf6a8c5ba938db7d13959a2630357f",
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/fabricmc/fabric-loader/0.19.5/fabric-loader-0.19.5.jar"
           },
           "subModules": [
             {
-              "id": "1.20.1-47.4.22",
-              "name": "Minecraft Forge (version.json)",
+              "id": "1.21.11-fabric-0.19.5",
+              "name": "Fabric (version.json)",
               "type": "VersionManifest",
               "artifact": {
-                "size": 16629,
-                "MD5": "17b365a2c7098647314d82326391eb04",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/versions/1.20.1-forge-47.4.22/1.20.1-forge-47.4.22.json"
+                "size": 2865,
+                "MD5": "c1a424b38413942c9dce9db92d205d0b",
+                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/versions/1.21.11-fabric-0.19.5/1.21.11-fabric-0.19.5.json"
               }
             },
             {
-              "id": "net.minecraftforge:fmlcore:1.20.1-47.4.22",
-              "name": "Minecraft Forge (fmlcore)",
-              "type": "Library",
-              "classpath": true,
-              "artifact": {
-                "size": 118908,
-                "MD5": "f001573a372f583c571d809e30cb63b1",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.4.22/fmlcore-1.20.1-47.4.22.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.4.22",
-              "name": "Minecraft Forge (javafmllanguage)",
-              "type": "Library",
-              "classpath": true,
-              "artifact": {
-                "size": 16849,
-                "MD5": "a02b109bf6657ef531ba2f8f20ea11ea",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.4.22/javafmllanguage-1.20.1-47.4.22.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.minecraftforge:mclanguage:1.20.1-47.4.22",
-              "name": "Minecraft Forge (mclanguage)",
-              "type": "Library",
-              "classpath": true,
-              "artifact": {
-                "size": 4993,
-                "MD5": "05d88c1f2ce7543167f0efcb04821e3c",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.4.22/mclanguage-1.20.1-47.4.22.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.minecraftforge:forge:1.20.1-47.4.22:universal",
-              "name": "Minecraft Forge (universal jar)",
-              "type": "Library",
-              "classpath": false,
-              "artifact": {
-                "size": 2508714,
-                "MD5": "58069c11175bd6473ddecd7ed6156f24",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/minecraftforge/forge/1.20.1-47.4.22/forge-1.20.1-47.4.22-universal.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.minecraftforge:forge:1.20.1-47.4.22:client",
-              "name": "Minecraft Forge (client jar)",
-              "type": "Library",
-              "classpath": false,
-              "artifact": {
-                "size": 4848917,
-                "MD5": "a653895344f94e59c864480cda1031d1",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/minecraftforge/forge/1.20.1-47.4.22/forge-1.20.1-47.4.22-client.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.minecraft:client:1.20.1-20230612.114412:srg",
-              "name": "Minecraft Forge (client srg)",
-              "type": "Library",
-              "classpath": false,
-              "artifact": {
-                "size": 18842082,
-                "MD5": "8bfacfba4f54cda741019756165c5ecf",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.minecraft:client:1.20.1-20230612.114412:slim",
-              "name": "Minecraft Forge (client slim)",
-              "type": "Library",
-              "classpath": false,
-              "artifact": {
-                "size": 12592249,
-                "MD5": "28edebec7b5a007bc9961ee9bab4d764",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.minecraft:client:1.20.1-20230612.114412:extra",
-              "name": "Minecraft Forge (client extra)",
-              "type": "Library",
-              "classpath": false,
-              "artifact": {
-                "size": 10436626,
-                "MD5": "da6bb1a2c23108392fd6c103da40867c",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "cpw.mods:securejarhandler:2.1.10",
-              "name": "Minecraft Forge (securejarhandler)",
+              "id": "org.ow2.asm:asm:9.10.1",
+              "name": "Fabric (asm)",
               "type": "Library",
               "artifact": {
-                "size": 88749,
-                "MD5": "d9ff48d1c68388270388b803fa42611e",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
+                "size": 126151,
+                "MD5": "9cb72080438acf27f2607002e1444a7b",
+                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm:9.9.1",
-              "name": "Minecraft Forge (asm)",
+              "id": "org.ow2.asm:asm-analysis:9.10.1",
+              "name": "Fabric (asm-analysis)",
               "type": "Library",
               "artifact": {
-                "size": 126252,
-                "MD5": "1888ad1f49038441bb2d12aa6dffe396",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/org/ow2/asm/asm/9.9.1/asm-9.9.1.jar"
+                "size": 35140,
+                "MD5": "6dd9011ec87f65e4b2e14e938c4118e4",
+                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-commons:9.9.1",
-              "name": "Minecraft Forge (asm-commons)",
+              "id": "org.ow2.asm:asm-commons:9.10.1",
+              "name": "Fabric (asm-commons)",
               "type": "Library",
               "artifact": {
-                "size": 75010,
-                "MD5": "7e0ef716c43d92d29e666f820df24e2c",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/org/ow2/asm/asm-commons/9.9.1/asm-commons-9.9.1.jar"
+                "size": 74840,
+                "MD5": "8eee0b1bdd046baf472eb83dd5e6bb44",
+                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-tree:9.9.1",
-              "name": "Minecraft Forge (asm-tree)",
+              "id": "org.ow2.asm:asm-tree:9.10.1",
+              "name": "Fabric (asm-tree)",
               "type": "Library",
               "artifact": {
-                "size": 51963,
-                "MD5": "7eb17cd0d09b03fbe473e51edfc6e4d2",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/org/ow2/asm/asm-tree/9.9.1/asm-tree-9.9.1.jar"
+                "size": 51958,
+                "MD5": "62541e1dc62331408ef31317555bf4fa",
+                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-util:9.9.1",
-              "name": "Minecraft Forge (asm-util)",
+              "id": "org.ow2.asm:asm-util:9.10.1",
+              "name": "Fabric (asm-util)",
               "type": "Library",
               "artifact": {
-                "size": 94643,
-                "MD5": "fd4d359daf227302ab9cefd36476ca72",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/org/ow2/asm/asm-util/9.9.1/asm-util-9.9.1.jar"
+                "size": 95628,
+                "MD5": "d0892ecb209867805e7d2418e5dc6c42",
+                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-analysis:9.9.1",
-              "name": "Minecraft Forge (asm-analysis)",
+              "id": "net.fabricmc:sponge-mixin:0.17.4+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
               "type": "Library",
               "artifact": {
-                "size": 35170,
-                "MD5": "68bd4a0266ad181cfca3f1603401ca68",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/org/ow2/asm/asm-analysis/9.9.1/asm-analysis-9.9.1.jar"
+                "size": 1539080,
+                "MD5": "9e33b145b2a46fbc70daf532e3705066",
+                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/fabricmc/sponge-mixin/0.17.4+mixin.0.8.7/sponge-mixin-0.17.4+mixin.0.8.7.jar"
               }
             },
             {
-              "id": "net.minecraftforge:accesstransformers:8.0.4",
-              "name": "Minecraft Forge (accesstransformers)",
+              "id": "net.fabricmc:intermediary:1.21.11",
+              "name": "Fabric (intermediary)",
               "type": "Library",
               "artifact": {
-                "size": 77756,
-                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
-              }
-            },
-            {
-              "id": "org.antlr:antlr4-runtime:4.9.1",
-              "name": "Minecraft Forge (antlr4-runtime)",
-              "type": "Library",
-              "artifact": {
-                "size": 337868,
-                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:eventbus:6.2.33",
-              "name": "Minecraft Forge (eventbus)",
-              "type": "Library",
-              "artifact": {
-                "size": 64014,
-                "MD5": "0b419ea48f46de30ee4e6241e4fdf9d4",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/minecraftforge/eventbus/6.2.33/eventbus-6.2.33.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:forgespi:7.0.1",
-              "name": "Minecraft Forge (forgespi)",
-              "type": "Library",
-              "artifact": {
-                "size": 29831,
-                "MD5": "bd34d20287dc95201fe9475a8bbc2540",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:coremods:5.2.4",
-              "name": "Minecraft Forge (coremods)",
-              "type": "Library",
-              "artifact": {
-                "size": 31872,
-                "MD5": "5295505357ba9b98450c5e3121f82191",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/minecraftforge/coremods/5.2.4/coremods-5.2.4.jar"
-              }
-            },
-            {
-              "id": "cpw.mods:modlauncher:10.0.9",
-              "name": "Minecraft Forge (modlauncher)",
-              "type": "Library",
-              "artifact": {
-                "size": 130343,
-                "MD5": "07507d18d72661f8ae6a5da75bbf35be",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:unsafe:0.2.0",
-              "name": "Minecraft Forge (unsafe)",
-              "type": "Library",
-              "artifact": {
-                "size": 2834,
-                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:mergetool:1.1.5:api",
-              "name": "Minecraft Forge (mergetool)",
-              "type": "Library",
-              "artifact": {
-                "size": 2572,
-                "MD5": "8df9c5bf87d004ddb884eca99bc2a4b1",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
-              }
-            },
-            {
-              "id": "com.electronwill.night-config:core:3.6.4",
-              "name": "Minecraft Forge (core)",
-              "type": "Library",
-              "artifact": {
-                "size": 199834,
-                "MD5": "d83ab07267e402131fb93d899a57f5cd",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
-              }
-            },
-            {
-              "id": "com.electronwill.night-config:toml:3.6.4",
-              "name": "Minecraft Forge (toml)",
-              "type": "Library",
-              "artifact": {
-                "size": 31816,
-                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
-              }
-            },
-            {
-              "id": "org.apache.maven:maven-artifact:3.8.5",
-              "name": "Minecraft Forge (maven-artifact)",
-              "type": "Library",
-              "artifact": {
-                "size": 58077,
-                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
-              }
-            },
-            {
-              "id": "net.jodah:typetools:0.6.3",
-              "name": "Minecraft Forge (typetools)",
-              "type": "Library",
-              "artifact": {
-                "size": 18281,
-                "MD5": "d4a375bf382f726cf1a650ccb38a736c",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
-              }
-            },
-            {
-              "id": "net.minecrell:terminalconsoleappender:1.2.0",
-              "name": "Minecraft Forge (terminalconsoleappender)",
-              "type": "Library",
-              "artifact": {
-                "size": 15977,
-                "MD5": "679363fa893293791e55a21f81342f87",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
-              }
-            },
-            {
-              "id": "org.jline:jline-reader:3.12.1",
-              "name": "Minecraft Forge (jline-reader)",
-              "type": "Library",
-              "artifact": {
-                "size": 150765,
-                "MD5": "a2e7b012cd9802f83321187409174a94",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
-              }
-            },
-            {
-              "id": "org.jline:jline-terminal:3.12.1",
-              "name": "Minecraft Forge (jline-terminal)",
-              "type": "Library",
-              "artifact": {
-                "size": 211712,
-                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
-              }
-            },
-            {
-              "id": "org.spongepowered:mixin:0.8.5",
-              "name": "Minecraft Forge (mixin)",
-              "type": "Library",
-              "artifact": {
-                "size": 1089277,
-                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
-              }
-            },
-            {
-              "id": "org.openjdk.nashorn:nashorn-core:15.4",
-              "name": "Minecraft Forge (nashorn-core)",
-              "type": "Library",
-              "artifact": {
-                "size": 2167292,
-                "MD5": "a9b3360e6a486cf62c1952c7816b7d97",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:JarJarSelector:0.3.19",
-              "name": "Minecraft Forge (JarJarSelector)",
-              "type": "Library",
-              "artifact": {
-                "size": 17374,
-                "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:JarJarMetadata:0.3.19",
-              "name": "Minecraft Forge (JarJarMetadata)",
-              "type": "Library",
-              "artifact": {
-                "size": 15895,
-                "MD5": "9633546d299d4282ca68d10582be1c8f",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
-              }
-            },
-            {
-              "id": "cpw.mods:bootstraplauncher:1.1.2",
-              "name": "Minecraft Forge (bootstraplauncher)",
-              "type": "Library",
-              "artifact": {
-                "size": 8284,
-                "MD5": "48f5255aa337344c467c0150d347813d",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
-              "name": "Minecraft Forge (JarJarFileSystems)",
-              "type": "Library",
-              "artifact": {
-                "size": 32195,
-                "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:fmlloader:1.20.1-47.4.22",
-              "name": "Minecraft Forge (fmlloader)",
-              "type": "Library",
-              "artifact": {
-                "size": 270955,
-                "MD5": "b6b202c492215c11587ead71428f45c8",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.4.22/fmlloader-1.20.1-47.4.22.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.4.22",
-              "name": "Minecraft Forge (fmlearlydisplay)",
-              "type": "Library",
-              "artifact": {
-                "size": 170512,
-                "MD5": "2a6e80a7609f9b6c4b2b7f02086231ee",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.22/fmlearlydisplay-1.20.1-47.4.22.jar"
+                "size": 797685,
+                "MD5": "54a87ea75e373bc39b2d36df201231ea",
+                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/fabricmc/intermediary/1.21.11/intermediary-1.21.11.jar"
               }
             }
           ]
         },
         {
-          "id": "com.anthonyhilyard:advancementplaques:1.6.9@jar",
-          "name": "Advancement Plaques",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 208850,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/AdvancementPlaques-1.20.1-forge-1.6.9.jar",
-            "MD5": "508c73f2941ae3d48cbf197ba390ecdd"
-          }
-        },
-        {
-          "id": "dev.uncandango:alltheleaks:1.1.1+1.20.1-forge@jar",
-          "name": "All The Leaks",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1187126,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/alltheleaks-1.1.1+1.20.1-forge.jar",
-            "MD5": "df84fbdadaf7947dc530872fa60fbc56"
-          }
-        },
-        {
-          "id": "squeek.appleskin:appleskin:2.5.1+mc1.20.1@jar",
-          "name": "AppleSkin",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 47428,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/appleskin-forge-mc1.20.1-2.5.1.jar",
-            "MD5": "dae63cea9c951dda542a4005ceef3953"
-          }
-        },
-        {
-          "id": "dev.architectury:architectury:9.2.14@jar",
+          "id": "dev.architectury.utils:architectury:19.0.1@jar",
           "name": "Architectury",
-          "type": "ForgeMod",
+          "type": "FabricMod",
           "artifact": {
-            "size": 580602,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/architectury-9.2.14-forge.jar",
-            "MD5": "76b40d407b6bf0257dd1dab6d3d395d5"
+            "size": 568474,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/architectury-19.0.1-fabric.jar",
+            "MD5": "f5adfe74f690e3cd014f1c95129a6ed4"
           }
         },
         {
-          "id": "moe.plushie.armourers_workshop.compat:armourers_workshop:3.4.0-beta.3@jar",
-          "name": "Armourer's Workshop",
-          "type": "ForgeMod",
+          "id": "de.zannagh.armorhider:armor-hider:0.13.0+mc-1.21.11@jar",
+          "name": "Armor-hider",
+          "type": "FabricMod",
           "artifact": {
-            "size": 6527569,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/armourersworkshop-forge-1.20.1-3.4.0-beta.3.jar",
-            "MD5": "d0a199f7ca4a8664ebd543397b0adfd4"
+            "size": 686470,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/armor-hider-fabric-0.13.0+mc-1.21.11.jar",
+            "MD5": "a53ee78d7c08451821588375e3135cb6"
           }
         },
         {
-          "id": "artifacts:artifacts:9.5.19@jar",
-          "name": "Artifacts",
-          "type": "ForgeMod",
+          "id": "generated.fabricmod:mr_armor_standarms:1-v2.5.4-mc1.21.6+@jar",
+          "name": "Armor Stand Arms",
+          "type": "FabricMod",
           "artifact": {
-            "size": 850974,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/artifacts-forge-9.5.19.jar",
-            "MD5": "54a59ba2d659e97aaff43264dd63e9c3"
+            "size": 170716,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/armor-stand-arms-v2.5.4-mc1.21.6+.jar",
+            "MD5": "965b2934d82ad6675c8a1b91fb8c94f8"
           }
         },
         {
-          "id": "net.darkhax:attributefix:21.0.5@jar",
-          "name": "AttributeFix",
-          "type": "ForgeMod",
+          "id": "com.moulberry:axiom:5.2.1@jar",
+          "name": "Axiom",
+          "type": "FabricMod",
           "artifact": {
-            "size": 19499,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/AttributeFix-Forge-1.20.1-21.0.5.jar",
-            "MD5": "e43cd5f7fc4b04e20127359e5bf9af80"
+            "size": 44226590,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/Axiom-5.2.1-for-MC1.21.11.jar",
+            "MD5": "b3e9d08900a3868e0785259ccc551005"
           }
         },
         {
-          "id": "com.mrcrayfish:backpacked:3.0.9@jar",
-          "name": "Backpacked",
-          "type": "ForgeMod",
+          "id": "generated.fabricmod:badoptimizations:2.4.1@jar",
+          "name": "BadOptimizations",
+          "type": "FabricMod",
           "artifact": {
-            "size": 1183307,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/backpacked-forge-1.20.1-3.0.9.jar",
-            "MD5": "05025cc9ccbef619916ed1911bd6f24e"
+            "size": 269545,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/BadOptimizations-2.4.1-1.21.11.jar",
+            "MD5": "6d595f1312c0774158eefcaa06612286"
           }
         },
         {
-          "id": "net.blay09.mods:balm:7.3.42@jar",
-          "name": "Balm",
-          "type": "ForgeMod",
+          "id": "me.cominixo:betterf3:17.0.0@jar",
+          "name": "BetterF3",
+          "type": "FabricMod",
           "artifact": {
-            "size": 561670,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/balm-forge-1.20.1-7.3.42.jar",
-            "MD5": "d2e369fb61ea048f1a24c6d467f784a0"
+            "size": 1714229,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/BetterF3-17.0.0-Fabric-1.21.11.jar",
+            "MD5": "6514c20b73422437c9662484b07ad207"
           }
         },
         {
-          "id": "betteradvancements:betteradvancements:0.6.0.73@jar",
-          "name": "Better Advancements",
-          "type": "ForgeMod",
+          "id": "com.thecsdev:betterstats:5.0.0-beta.2+fabric-1.21.11@jar",
+          "name": "Better Statistics Screen",
+          "type": "FabricMod",
           "artifact": {
-            "size": 100436,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/BetterAdvancements-Forge-1.20.1-0.6.0.73.jar",
-            "MD5": "1c964904cb6c0b4fb7b81fe4eb91519c"
+            "size": 224339,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/betterstats-5.0.0-beta.2+fabric-1.21.11.jar",
+            "MD5": "e73f0c2c84e085ab2373ac71f095f0df"
           }
         },
         {
-          "id": "com.betterfpsdist:betterfpsdist:1.20.1-6.0@jar",
-          "name": "Betterfpsdist mod",
-          "type": "ForgeMod",
+          "id": "me.soapsuds:boatiview:0.0.8@jar",
+          "name": "Boat Item View",
+          "type": "FabricMod",
           "artifact": {
-            "size": 19917,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/betterfpsdist-1.20.1-6.0.jar",
-            "MD5": "34280e25bfb67f8ce08157129c8cb09d"
+            "size": 1051768,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/boatiview-fabric-0.0.8-1.21.11.jar",
+            "MD5": "585bf76941dd063145ec47d98da2a483"
           }
         },
         {
-          "id": "net.unusual:block_factorys_bosses:2.1.2@jar",
-          "name": "Bosses'Rise",
-          "type": "ForgeMod",
+          "id": "com.lukasabbe:bookshelfinspector:2.2+1.21.11@jar",
+          "name": "BookshelfInspector",
+          "type": "FabricMod",
           "artifact": {
-            "size": 23963009,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/block_factorys_bosses-2.1.2-forge-1.20.1.jar",
-            "MD5": "117796c2e5a8e74b16b185f679900b62"
+            "size": 417853,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/bookshelfinspector-fabric-2.2+1.21.11.jar",
+            "MD5": "eed719a214ae6033fcd767d7b3278648"
           }
         },
         {
-          "id": "com.ldtteam:cleanswing:1.8@jar",
-          "name": "Clean Swing Through Grass",
-          "type": "ForgeMod",
+          "id": "com.ezzenix:chatanimation:1.1.3@jar",
+          "name": "ChatAnimation",
+          "type": "FabricMod",
           "artifact": {
-            "size": 8305,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/cleanswing-1.20-1.8.jar",
-            "MD5": "84f9950e09245d82f72a6461f57ca30f"
+            "size": 380840,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/chatanimation-fabric-1.21.11-1.1.3.jar",
+            "MD5": "30c44866f0fada967e289ca663fb4f42"
           }
         },
         {
-          "id": "me.shedaniel.clothconfig:cloth_config:11.1.136@jar",
-          "name": "Cloth Config v10 API",
-          "type": "ForgeMod",
+          "id": "com.illusivesoulworks:cherishedworlds:15.0.0+1.21.11@jar",
+          "name": "Cherished Worlds",
+          "type": "FabricMod",
           "artifact": {
-            "size": 1181413,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/cloth-config-11.1.136-forge.jar",
-            "MD5": "ca5de5acbcb4a30c010aa6953bd7ef53"
+            "size": 62863,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/cherishedworlds-fabric-15.0.0+1.21.11.jar",
+            "MD5": "8947d0288ccd41193a06e251a30b0e74"
           }
         },
         {
-          "id": "codechicken.lib:codechickenlib:4.4.0.528@jar",
-          "name": "CodeChicken Lib",
-          "type": "ForgeMod",
+          "id": "me.shedaniel.autoconfig.example:cloth-config:21.11.153@jar",
+          "name": "Cloth Config v20",
+          "type": "FabricMod",
           "artifact": {
-            "size": 1473536,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/CodeChickenLib-1.20.1-4.4.0.528-universal.jar",
-            "MD5": "cd77cb33d92407fd0b5bf0b79d58af69"
+            "size": 1148427,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/cloth-config-21.11.153-fabric.jar",
+            "MD5": "9de770889c2b19445f57f881e4f7d6f8"
           }
         },
         {
-          "id": "com.mrcrayfish:configured:2.2.3@jar",
-          "name": "Configured",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 418929,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/configured-forge-1.20.1-2.2.3.jar",
-            "MD5": "9380dc31c599c523a5682a4025fceb92"
-          }
-        },
-        {
-          "id": "com.blamejared:controlling:12.0.2@jar",
-          "name": "Controlling",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 115280,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/Controlling-forge-1.20.1-12.0.2.jar",
-            "MD5": "952274bc9994bba9733e8747558f73fa"
-          }
-        },
-        {
-          "id": "com.corosus.coroutil.loader:coroutil:1.20.1-1.3.7@jar",
-          "name": "CoroUtil",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 64187,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/coroutil-forge-1.20.1-1.3.7.jar",
-            "MD5": "6fb9ccbe8c05c1da61c224d1127e9643"
-          }
-        },
-        {
-          "id": "lain.mods.cos.init:cosmeticarmorreworked:1.20.1-v1a@jar",
-          "name": "CosmeticArmorReworked",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 88752,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/cosmeticarmorreworked-1.20.1-v1a.jar",
-            "MD5": "2454075e9a25cbadc0fce66502e3261d"
-          }
-        },
-        {
-          "id": "net.cristellib:cristellib:1.1.6@jar",
-          "name": "Cristel Lib",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 431318,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/cristellib-1.1.6-forge.jar",
-            "MD5": "b52e8b225a34abab9300049c85f6855a"
-          }
-        },
-        {
-          "id": "com.cupboard:cupboard:1.20.1-4.0@jar",
-          "name": "Cupboard utilities",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 32483,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/cupboard-1.20.1-4.0.jar",
-            "MD5": "cf55053b4bb215d4f8a4178ba7e46358"
-          }
-        },
-        {
-          "id": "top.theillusivec4:curios:5.14.1+1.20.1@jar",
-          "name": "Curios API",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 398066,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/curios-forge-5.14.1+1.20.1.jar",
-            "MD5": "2fdcc97cbc66c4b2492b407c792e7159"
-          }
-        },
-        {
-          "id": "com.pla:pladailyboss:1.8@jar",
-          "name": "Daily Boss",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 7142861,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/DailyBoss-1.20.1-1.8.jar",
-            "MD5": "cffd5917bccd26e31d3699b3d8cc313e"
-          }
-        },
-        {
-          "id": "com.pla:dailyboss_bosses_rise:1.1@jar",
-          "name": "Daily Boss x Bosses Rise",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 8042068,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/DailyBoss-BossesRise-KrakenAddon.jar",
-            "MD5": "8815b8f3d75ae3541344b7aa84d002df"
-          }
-        },
-        {
-          "id": "com.kyanite:deeperdarker:1.3.3@jar",
-          "name": "Deeper and Darker",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 17844266,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/deeperdarker-forge-1.20.1-1.3.3.jar",
-            "MD5": "0a71e15737a134276edb310ea02db5f4"
-          }
-        },
-        {
-          "id": "com.facub8.dmzpassivesplus:dmz_passives_plus:1.1.0@jar",
-          "name": "DragonMine Z: Passives Plus",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 85152,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/dmz_passives_plus-1.5.1.jar",
-            "MD5": "2fa7a065fb0df39edeea5bce657ad641"
-          }
-        },
-        {
-          "id": "com.dragonminez:dragonminez:2.1.3@jar",
-          "name": "DragonMineZ",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 61828647,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/dragonminez-2.1.3.jar",
-            "MD5": "bce3a96f2dd2c7d7aebf76e4e8ab3851"
-          }
-        },
-        {
-          "id": "net.aurelj:dungeons_arise:2.1.58-1.20.x@jar",
-          "name": "When Dungeons Arise",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 8762342,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/DungeonsArise-1.20.x-2.1.58-release.jar",
-            "MD5": "6ac48d0cf2ce763824f96f6d26963219"
-          }
-        },
-        {
-          "id": "net.aurelj:dungeons_arise_seven_seas:1.0.2@jar",
-          "name": "When Dungeons Arise: Seven Seas",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 248169,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/DungeonsAriseSevenSeas-1.20.x-1.0.2-forge.jar",
-            "MD5": "7438cb3ec55972c670e83effa52f8668"
-          }
-        },
-        {
-          "id": "de.markusbordihn.easynpc.bundle:easy_npc_bundle:7.7.7@jar",
-          "name": "Easy NPC: Bundle",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 25439,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/easy_npc_bundle-forge-1.20.1-7.7.7.jar",
-            "MD5": "0616cee21caed3907dda8777890602e9"
-          }
-        },
-        {
-          "id": "de.markusbordihn.easynpc.configui:easy_npc_config_ui:7.7.7@jar",
-          "name": "Easy NPC: Config UI",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1033291,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/easy_npc_config_ui-forge-1.20.1-7.7.7.jar",
-            "MD5": "93738b7becec2ff741f0de075537140b"
-          }
-        },
-        {
-          "id": "de.markusbordihn.easynpc:easy_npc:7.7.7@jar",
-          "name": "Easy NPC",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 2746263,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/easy_npc-forge-1.20.1-7.7.7.jar",
-            "MD5": "5a8ee937ad209098563e541eb651da8a"
-          }
-        },
-        {
-          "id": "xyz.vsngamer:elevatorid:1.20.1-1.9.1-forge@jar",
-          "name": "Elevator Mod",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 187868,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/elevatorid-1.20.1-1.9.1-forge.jar",
-            "MD5": "b4784b8ae695f179d0aefaaa82018968"
-          }
-        },
-        {
-          "id": "me.jellysquid.mods.sodium.client:embeddium:0.3.31+mc1.20.1@jar",
-          "name": "Embeddium",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1320675,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/embeddium-0.3.31+mc1.20.1.jar",
-            "MD5": "1dfb2ee49ce9ad5d484ff3eea0d628b7"
-          }
-        },
-        {
-          "id": "generated.forgemod:explorify:1.6.5@jar",
-          "name": "Explorify",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 767884,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/Explorify%20v1.6.5.mod.jar",
-            "MD5": "55bb6ffd4c69edb45a0d4e75a0b071ca"
-          }
-        },
-        {
-          "id": "vectorwing.farmersdelight:farmersdelight:1.20.1-1.3.2@jar",
-          "name": "Farmer's Delight",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 3313327,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/FarmersDelight-1.20.1-1.3.2.jar",
-            "MD5": "39459d8e62ef83e36c2b54952dbe2c2f"
-          }
-        },
-        {
-          "id": "com.farsight:farsight_view:1.20.1-5.1@jar",
-          "name": "Farsight mod",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 462659,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/farsight-1.20.1-5.1.jar",
-            "MD5": "77b2043d831fc5cb1a9f954347c38bc6"
-          }
-        },
-        {
-          "id": "malte0811.ferritecore:ferritecore:6.0.1@jar",
-          "name": "Ferrite Core",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 123034,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/ferritecore-6.0.1-forge.jar",
-            "MD5": "f52f538207a4829d7060550092ce2383"
-          }
-        },
-        {
-          "id": "com.mrcrayfish:framework:0.8.0@jar",
-          "name": "Framework",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 383868,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/framework-forge-1.20.1-0.8.0.jar",
-            "MD5": "6d9a54cd004b15028673b309243e07a2"
-          }
-        },
-        {
-          "id": "dev.ftb.mods:ftbessentials:2001.2.4@jar",
-          "name": "FTB Essentials",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 157732,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/ftb-essentials-forge-2001.2.4.jar",
-            "MD5": "c46c0af33a0452001e8628075b341eb2"
-          }
-        },
-        {
-          "id": "dev.ftb.mods:ftblibrary:2001.2.13@jar",
-          "name": "FTB Library",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 780558,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/ftb-library-forge-2001.2.13.jar",
-            "MD5": "9de2c76938392445e735a98b352da9d4"
-          }
-        },
-        {
-          "id": "me.fzzyhmstrs:fzzy_config:0.7.6+1.20.1+forge@jar",
-          "name": "Fzzy Config",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 2374667,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/fzzy_config-0.7.6+1.20.1+forge.jar",
-            "MD5": "f48f8112f6e2d161c655b750f6bfd0c8"
-          }
-        },
-        {
-          "id": "software.bernie.example:geckolib:4.8.4@jar",
-          "name": "GeckoLib 4",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1038209,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/geckolib-forge-1.20.1-4.8.4.jar",
-            "MD5": "83c73bcbf5778235569025ed968dc3ec"
-          }
-        },
-        {
-          "id": "com.mrcrayfish:goblintraders:1.11.5@jar",
-          "name": "Goblin Traders",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 328727,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/goblintraders-forge-1.20.1-1.11.5.jar",
-            "MD5": "2d7e09aa226d32806c63ecd5bea64d32"
-          }
-        },
-        {
-          "id": "tallestegg.guardvillagers:guardvillagers:1.20.1-1.6.18@jar",
-          "name": "Guard Villagers",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 204868,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/guardvillagers-1.20.1-1.6.18.jar",
-            "MD5": "6dec86cd556786d0208d00e5f5be4a0b"
-          }
-        },
-        {
-          "id": "com.anthonyhilyard:iceberg:1.1.25@jar",
-          "name": "Iceberg",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 134551,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/Iceberg-1.20.1-forge-1.1.25.jar",
-            "MD5": "cda8af806d0de012f5c7012ea51c155f"
-          }
-        },
-        {
-          "id": "net.raphimc:immediatelyfast:1.5.5+1.20.4@jar",
-          "name": "ImmediatelyFast",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 532063,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/ImmediatelyFast-Forge-1.5.5+1.20.4.jar",
-            "MD5": "4d776686d7da62146099484b8c9e14af"
-          }
-        },
-        {
-          "id": "com.progwml6:ironchest:1.20.1-14.4.4@jar",
-          "name": "Iron Chests",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 311290,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/ironchest-1.20.1-14.4.4.jar",
-            "MD5": "078fbc43b289995ca4a8cced59bbf0ef"
-          }
-        },
-        {
-          "id": "ironfurnaces:ironfurnaces:4.1.8@jar",
-          "name": "Iron Furnaces",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 612921,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/ironfurnaces-1.20.1-4.1.8.jar",
-            "MD5": "cd22a9c8cd46953b03abd44ec0b33f94"
-          }
-        },
-        {
-          "id": "snownee.jade:jade:11.13.3+forge@jar",
-          "name": "Jade",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 553487,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/Jade-1.20.1-Forge-11.13.3.jar",
-            "MD5": "a53aade6b5915ebe8357abb68cf1f778"
-          }
-        },
-        {
-          "id": "com.lingmu0.jeiplusplusmod:jei_plus_plus:1.0.3-1.20.1@jar",
-          "name": "JEI++",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 306286,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/jei_plus_plus-1.0.3-1.20.1.jar",
-            "MD5": "d14599a547026b9b0da4f57496f3b656"
-          }
-        },
-        {
-          "id": "mezz.jei:jei:15.49.0.190@jar",
-          "name": "Just Enough Items",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1669248,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/jei-1.20.1-forge-15.49.0.190.jar",
-            "MD5": "f4e602d7893bc37f797762bb19012d27"
-          }
-        },
-        {
-          "id": "de.larsensmods:jeiworldgen:1.4.1@jar",
-          "name": "JEIWorldGen",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 128777,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/jeiworldgen-forge-1.20.1-1.4.1.jar",
-            "MD5": "43390c05ccece414e35adec383fae610"
-          }
-        },
-        {
-          "id": "jeresources:jeresources:1.4.0.247@jar",
-          "name": "Just Enough Resources",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 276231,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/JustEnoughResources-1.20.1-1.4.0.247.jar",
-            "MD5": "bd7166a2e9361ef5e8b616edfa2028f4"
-          }
-        },
-        {
-          "id": "generated.forgemod:kotlinforforge:4.12.0-all@jar",
-          "name": "Kotlinforforge",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 7442998,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/kotlinforforge-4.12.0-all.jar",
-            "MD5": "d6a40dede74edbe646b34a1bafd53b4d"
-          }
-        },
-        {
-          "id": "com.github.l_ender:cataclysm:3.31@jar",
-          "name": "Cataclysm",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 73916104,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/L_Enders_Cataclysm-3.31.jar",
-            "MD5": "a296c93419f679f0da7100da6e6e35af"
-          }
-        },
-        {
-          "id": "com.github.l_ender:lionfishapi:3.0@jar",
-          "name": "LionfishAPI",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 101931,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/lionfishapi-3.0.jar",
-            "MD5": "76af08dd2f58d5557d13162d855f4cc9"
-          }
-        },
-        {
-          "id": "io.wispforest:lmft:1.0.4+1.20.1@jar",
-          "name": "Load My F***ing Tags",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 178625,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/lmft-1.0.4+1.20.1-forge.jar",
-            "MD5": "b6fef15e42caec14db87f5aa498233e8"
-          }
-        },
-        {
-          "id": "com.lootintegrations:lootintegrations:1.20.1-4.7@jar",
-          "name": "Lootintegrations mod",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 42220,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/lootintegrations-1.20.1-4.7.jar",
-            "MD5": "3dd1027fe2ca00e1bf3b432e1870aabc"
-          }
-        },
-        {
-          "id": "noobanidus.mods:lootr:0.7.35.94@jar",
-          "name": "Lootr",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 463485,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/lootr-forge-1.20-0.7.35.94.jar",
-            "MD5": "56dd6966de4ba641cf00ef5b9ce8d2d7"
-          }
-        },
-        {
-          "id": "yalter.mousetweaks:mousetweaks:2.25.1@jar",
-          "name": "Mouse Tweaks",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 76237,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
-            "MD5": "ce4b5bbb9ef6a7905c458ab599ef4cb2"
-          }
-        },
-        {
-          "id": "com.chaosthedude:naturescompass:1.20.1-1.12.0-forge@jar",
-          "name": "Nature's Compass",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 227495,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/NaturesCompass-1.20.1-1.12.0-forge.jar",
-            "MD5": "cd6c3480c519bc6d5f7532bc5c21820b"
-          }
-        },
-        {
-          "id": "com.butterjaffa:noeabosses:0.86.2@jar",
-          "name": "Dragon Block Noea",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 67266097,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/NoeaBosses-0.86.2-DMZ-2.1.3-CREATOR-PRESET.jar",
-            "MD5": "ebd5b12204bbb37478c733221721baec"
-          }
-        },
-        {
-          "id": "net.irisshaders.iris:oculus:1.8.0@jar",
-          "name": "Oculus",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 2851119,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/oculus-mc1.20.1-1.8.0.jar",
-            "MD5": "1dd891634ac21591b5a692471f112572"
-          }
-        },
-        {
-          "id": "oreexcavation.core:oreexcavation:1.13.174@jar",
-          "name": "OreExcavation",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 277361,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/oreexcavation-1.13.174.jar",
-            "MD5": "1e87b83ed930e864de2a3150255f30bf"
-          }
-        },
-        {
-          "id": "dev.shadowsoffire:placebo:8.6.3@jar",
-          "name": "Placebo",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 282474,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/Placebo-1.20.1-8.6.3.jar",
-            "MD5": "13133ab9989e8474931cd7a86bd19cc5"
-          }
-        },
-        {
-          "id": "com.mrcrayfish.furniture.refurbished:refurbished_furniture:1.0.20@jar",
-          "name": "MrCrayfish's Furniture Mod: Refurbished",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 6689588,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/refurbished_furniture-forge-1.20.1-1.0.20.jar",
-            "MD5": "53bf35be2dc746e3fd7805a4e63a46a6"
-          }
-        },
-        {
-          "id": "org.okunev:scalingmobs:1.0@jar",
-          "name": "ScalingMobs",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 14014,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/scalingmobs-1.0.jar",
-            "MD5": "0647d7c7603d7a072a4cfd0aa841ab15"
-          }
-        },
-        {
-          "id": "net.shurui.dev:sdu:3.0.11@jar",
-          "name": "Shurui's DMZ Utilities",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1232779,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/sdu-3.0.11.jar",
-            "MD5": "8cbfcddd5b0fb1292812e61fac62c3fc"
-          }
-        },
-        {
-          "id": "com.blamejared:searchables:1.0.3@jar",
-          "name": "Searchables",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 77732,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/Searchables-forge-1.20.1-1.0.3.jar",
-            "MD5": "9f5418e9c08c18a375ef42fada4bcef2"
-          }
-        },
-        {
-          "id": "net.shurui.dev:shuruis_dmz_dungeons:2.0.5@jar",
-          "name": "Shuruis-dmz-dungeons",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 233039,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/shuruis_dmz_dungeons-2.0.5.jar",
-            "MD5": "d9b9ecdcca5672e9363f855c83ca8803"
-          }
-        },
-        {
-          "id": "net.shurui.dev:shuruis_dmz_tournaments:3.0.2@jar",
-          "name": "Shurui's DMZ Tournaments",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 255781,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/shuruis_dmz_tournaments-3.0.2.jar",
-            "MD5": "b992b93228f2d8fa8d622c6b1a6c9964"
-          }
-        },
-        {
-          "id": "net.shurui.dev:shuruis_raid_bosses:3.0.3@jar",
-          "name": "Shurui's Raid Bosses",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 368496,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/shuruis_raid_bosses-3.0.3.jar",
-            "MD5": "643519f4dff92b1243d803bfd1719ab3"
-          }
-        },
-        {
-          "id": "toni.sodiumoptionsapi:sodiumoptionsapi:1.0.10@jar",
-          "name": "Sodium Options API",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 443978,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/sodiumoptionsapi-forge-1.0.10-1.20.1.jar",
-            "MD5": "75807590ae2648ecdeb855705868ce59"
-          }
-        },
-        {
-          "id": "net.soulsweaponry:soulsweapons:1.4.8-1.20.1-forge}@jar",
-          "name": "Marium's Soulslike Weaponry",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 54877532,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/soulslike-weaponry-1.4.8-1.20.1-forge.jar",
-            "MD5": "ce672d030b5936617a5e5837a25c44cb"
-          }
-        },
-        {
-          "id": "io.github.maxencedc:sparsestructures:3.0@jar",
-          "name": "SparseStructures",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 121055,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/sparsestructures-forge-1.20.1-3.0.jar",
-            "MD5": "bf7fda6c7026dc2ef085fac7cebab3e1"
-          }
-        },
-        {
-          "id": "generated.forgemod:structory_towers:1.0.7@jar",
-          "name": "Structory: Towers",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 526234,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/Structory_Towers_1.20.x_v1.0.7.jar",
-            "MD5": "f9270d33ddf45c025bb048c9bda9f0a8"
-          }
-        },
-        {
-          "id": "terrablender.core:terrablender:3.0.1.10@jar",
-          "name": "TerraBlender",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 107532,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/TerraBlender-forge-1.20.1-3.0.1.10.jar",
-            "MD5": "9d8e305b95ae5a8f7b446d6346324267"
-          }
-        },
-        {
-          "id": "generated.forgemod:terralith:2.5.4@jar",
-          "name": "Terralith",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 3156901,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/Terralith_1.20.x_v2.5.4.jar",
-            "MD5": "b143cfd648086c68d7f47a86b8994ee3"
-          }
-        },
-        {
-          "id": "dev.shadowsoffire:toastcontrol:8.0.3@jar",
-          "name": "Toast Control",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 26957,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/ToastControl-1.20.1-8.0.3.jar",
-            "MD5": "f1bcf2e30adc3ac2e00d7f9d1a4780c6"
-          }
-        },
-        {
-          "id": "de.cristelknight999:t_and_t:1.10.2@jar",
-          "name": "Towns and Towers",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 2864275,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/Towns-and-Towers-1.12-Fabric+Forge.jar",
-            "MD5": "237a2186d2482856f67c638c06489fb8"
-          }
-        },
-        {
-          "id": "de.maxhenkel.voicechat:voicechat:1.20.1-2.6.22@jar",
-          "name": "Simple Voice Chat",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 4923439,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/voicechat-forge-1.20.1-2.6.22.jar",
-            "MD5": "4e513ad55bf64e5ea4716544d51f1fde"
-          }
-        },
-        {
-          "id": "com.voidk:voidban:1.0.0@jar",
-          "name": "Void Ban",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 22313,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/voidban-1.0.4.jar",
-            "MD5": "86d7c4257ac0fb34b2615335edc2bcd4"
-          }
-        },
-        {
-          "id": "com.corosus.watut.loader:watut:1.20.1-1.2.3@jar",
-          "name": "What Are They Up To",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 435496,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/watut-forge-1.20.1-1.2.3.jar",
-            "MD5": "345d3ecdf94dffaa0e3ba55538c65f80"
-          }
-        },
-        {
-          "id": "net.blay09.mods:waystones:14.1.20@jar",
-          "name": "Waystones",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 533738,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/waystones-forge-1.20.1-14.1.20.jar",
-            "MD5": "eb4dcdc36470b7fd858c39547ad1c7d2"
-          }
-        },
-        {
-          "id": "xaero.minimap:xaerominimap:26.4.2@jar",
-          "name": "Xaero's Minimap",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 2195245,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/xaerominimap-forge-1.20.1-26.4.2.jar",
-            "MD5": "f6019f3ba0925782cc3cd8405cc80259"
-          }
-        },
-        {
-          "id": "xaero.map:xaeroworldmap:1.44.2@jar",
-          "name": "Xaero's World Map",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1421224,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/xaeroworldmap-forge-1.20.1-1.44.2.jar",
-            "MD5": "4876f693b6525716be8f8acfb1b2f6a5"
-          }
-        },
-        {
-          "id": "com.yungnickyoung.minecraft:yungsapi:1.20-Forge-4.0.6@jar",
-          "name": "YUNG's API",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 370524,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/YungsApi-1.20-Forge-4.0.6.jar",
-            "MD5": "fe79f43dba8edbb8ede99f4e358e5b0c"
-          }
-        },
-        {
-          "id": "com.yungnickyoung.minecraft:bettercaves:1.20.1-Forge-2.0.5@jar",
-          "name": "YUNG's Better Caves",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 401492,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/YungsBetterCaves-1.20.1-Forge-2.0.5.jar",
-            "MD5": "a844a79f9dbfe04e62616f2239ecf265"
-          }
-        },
-        {
-          "id": "com.yungnickyoung.minecraft:betterdeserttemples:1.20-Forge-3.0.3@jar",
-          "name": "YUNG's Better Desert Temples",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 918012,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/YungsBetterDesertTemples-1.20-Forge-3.0.3.jar",
-            "MD5": "183e2c817e9094ce215c9e70c114825f"
-          }
-        },
-        {
-          "id": "com.yungnickyoung.minecraft:betterdungeons:1.20-Forge-4.0.4@jar",
-          "name": "YUNG's Better Dungeons",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 792381,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/YungsBetterDungeons-1.20-Forge-4.0.4.jar",
-            "MD5": "2de2f1be8f528ad139003bb5c73d49f3"
-          }
-        },
-        {
-          "id": "com.yungnickyoung.minecraft:betterendisland:1.20-Forge-2.0.6@jar",
-          "name": "YUNG's Better End Island",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 387111,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/YungsBetterEndIsland-1.20-Forge-2.0.6.jar",
-            "MD5": "7f5ed661e5478668a91ea199fba75fb3"
-          }
-        },
-        {
-          "id": "com.yungnickyoung.minecraft:betterjungletemples:1.20-Forge-2.0.5@jar",
-          "name": "YUNG's Better Jungle Temples",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 806652,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/YungsBetterJungleTemples-1.20-Forge-2.0.5.jar",
-            "MD5": "abf4f9ef692311aef1eccb98bcee8956"
-          }
-        },
-        {
-          "id": "com.yungnickyoung.minecraft:bettermineshafts:1.20-Forge-4.0.4@jar",
-          "name": "YUNG's Better Mineshafts",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 492998,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/YungsBetterMineshafts-1.20-Forge-4.0.4.jar",
-            "MD5": "fe8d205c98cb02840d46646fb7cf5ab8"
-          }
-        },
-        {
-          "id": "com.yungnickyoung.minecraft:betterfortresses:1.20-Forge-2.0.6@jar",
-          "name": "YUNG's Better Nether Fortresses",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 619255,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar",
-            "MD5": "8f0011690923efb6e2d59514181f0bc9"
-          }
-        },
-        {
-          "id": "com.yungnickyoung.minecraft:betterstrongholds:1.20-Forge-4.0.3@jar",
-          "name": "YUNG's Better Strongholds",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 473564,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/YungsBetterStrongholds-1.20-Forge-4.0.3.jar",
-            "MD5": "8c00ed5d2bab232040a1d4d0ef746ae6"
-          }
-        },
-        {
-          "id": "com.yungnickyoung.minecraft:betterwitchhuts:1.20-Forge-3.0.3@jar",
-          "name": "YUNG's Better Witch Huts",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 179190,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/YungsBetterWitchHuts-1.20-Forge-3.0.3.jar",
-            "MD5": "cb6d73e271fdfb2e8698b7c6bd9df0d9"
-          }
-        },
-        {
-          "id": "net.mcreator.zombieextincion:zombie_extincion:1.0.0@jar",
-          "name": "Zombie Extincion",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 408838,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DawnMineZ-1.20.1/forgemods/required/zombie_extincion-0.1.0-beta-forge-1.20.1.jar",
-            "MD5": "54c3992ff021a2938a6037232b363c5f"
-          }
-        }
-      ]
-    },
-    {
-      "id": "DesolatePlanet-1.20.1",
-      "name": "DesolatePlanet (Minecraft 1.20.1)",
-      "description": "DesolatePlanet Running Minecraft 1.20.1 (Forge v47.4.23)",
-      "icon": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/SealCircle.png",
-      "version": "1.0.0",
-      "address": "170.23.230.137:25567",
-      "minecraftVersion": "1.20.1",
-      "discord": {
-        "shortId": "Dawn",
-        "largeImageText": "Desolate planet",
-        "largeImageKey": "seal-circle"
-      },
-      "mainServer": true,
-      "autoconnect": true,
-      "modules": [
-        {
-          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.4.23",
-          "name": "Minecraft Forge (lowcodelanguage)",
-          "type": "ForgeHosted",
-          "classpath": true,
-          "artifact": {
-            "size": 7395,
-            "MD5": "468d74cca87e50a49d21bf8a94bbdba7",
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.4.23/lowcodelanguage-1.20.1-47.4.23.jar"
-          },
-          "subModules": [
-            {
-              "id": "1.20.1-47.4.23",
-              "name": "Minecraft Forge (version.json)",
-              "type": "VersionManifest",
-              "artifact": {
-                "size": 16629,
-                "MD5": "745db302de8ddd557e5ee7909bfb9687",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/versions/1.20.1-forge-47.4.23/1.20.1-forge-47.4.23.json"
-              }
-            },
-            {
-              "id": "net.minecraftforge:fmlcore:1.20.1-47.4.23",
-              "name": "Minecraft Forge (fmlcore)",
-              "type": "Library",
-              "classpath": true,
-              "artifact": {
-                "size": 118909,
-                "MD5": "c9a06a6cd0004bf5cb91e39aefbc95f8",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.4.23/fmlcore-1.20.1-47.4.23.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.4.23",
-              "name": "Minecraft Forge (javafmllanguage)",
-              "type": "Library",
-              "classpath": true,
-              "artifact": {
-                "size": 16851,
-                "MD5": "3078cf24c12fb7dcd42175977cf2c63e",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.4.23/javafmllanguage-1.20.1-47.4.23.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.minecraftforge:mclanguage:1.20.1-47.4.23",
-              "name": "Minecraft Forge (mclanguage)",
-              "type": "Library",
-              "classpath": true,
-              "artifact": {
-                "size": 4994,
-                "MD5": "5b9d53efd75c78cb491280f8b2ed19a0",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.4.23/mclanguage-1.20.1-47.4.23.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.minecraftforge:forge:1.20.1-47.4.23:universal",
-              "name": "Minecraft Forge (universal jar)",
-              "type": "Library",
-              "classpath": false,
-              "artifact": {
-                "size": 2508773,
-                "MD5": "57d56c36a2131f729298d58eab5fb26e",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/minecraftforge/forge/1.20.1-47.4.23/forge-1.20.1-47.4.23-universal.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.minecraftforge:forge:1.20.1-47.4.23:client",
-              "name": "Minecraft Forge (client jar)",
-              "type": "Library",
-              "classpath": false,
-              "artifact": {
-                "size": 4848917,
-                "MD5": "a653895344f94e59c864480cda1031d1",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/minecraftforge/forge/1.20.1-47.4.23/forge-1.20.1-47.4.23-client.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.minecraft:client:1.20.1-20230612.114412:srg",
-              "name": "Minecraft Forge (client srg)",
-              "type": "Library",
-              "classpath": false,
-              "artifact": {
-                "size": 18842082,
-                "MD5": "8bfacfba4f54cda741019756165c5ecf",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.minecraft:client:1.20.1-20230612.114412:slim",
-              "name": "Minecraft Forge (client slim)",
-              "type": "Library",
-              "classpath": false,
-              "artifact": {
-                "size": 12592249,
-                "MD5": "28edebec7b5a007bc9961ee9bab4d764",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.minecraft:client:1.20.1-20230612.114412:extra",
-              "name": "Minecraft Forge (client extra)",
-              "type": "Library",
-              "classpath": false,
-              "artifact": {
-                "size": 10436626,
-                "MD5": "da6bb1a2c23108392fd6c103da40867c",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "cpw.mods:securejarhandler:2.1.10",
-              "name": "Minecraft Forge (securejarhandler)",
-              "type": "Library",
-              "artifact": {
-                "size": 88749,
-                "MD5": "d9ff48d1c68388270388b803fa42611e",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm:9.9.1",
-              "name": "Minecraft Forge (asm)",
-              "type": "Library",
-              "artifact": {
-                "size": 126252,
-                "MD5": "1888ad1f49038441bb2d12aa6dffe396",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/org/ow2/asm/asm/9.9.1/asm-9.9.1.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-commons:9.9.1",
-              "name": "Minecraft Forge (asm-commons)",
-              "type": "Library",
-              "artifact": {
-                "size": 75010,
-                "MD5": "7e0ef716c43d92d29e666f820df24e2c",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/org/ow2/asm/asm-commons/9.9.1/asm-commons-9.9.1.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-tree:9.9.1",
-              "name": "Minecraft Forge (asm-tree)",
-              "type": "Library",
-              "artifact": {
-                "size": 51963,
-                "MD5": "7eb17cd0d09b03fbe473e51edfc6e4d2",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/org/ow2/asm/asm-tree/9.9.1/asm-tree-9.9.1.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-util:9.9.1",
-              "name": "Minecraft Forge (asm-util)",
-              "type": "Library",
-              "artifact": {
-                "size": 94643,
-                "MD5": "fd4d359daf227302ab9cefd36476ca72",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/org/ow2/asm/asm-util/9.9.1/asm-util-9.9.1.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-analysis:9.9.1",
-              "name": "Minecraft Forge (asm-analysis)",
-              "type": "Library",
-              "artifact": {
-                "size": 35170,
-                "MD5": "68bd4a0266ad181cfca3f1603401ca68",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/org/ow2/asm/asm-analysis/9.9.1/asm-analysis-9.9.1.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:accesstransformers:8.0.4",
-              "name": "Minecraft Forge (accesstransformers)",
-              "type": "Library",
-              "artifact": {
-                "size": 77756,
-                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
-              }
-            },
-            {
-              "id": "org.antlr:antlr4-runtime:4.9.1",
-              "name": "Minecraft Forge (antlr4-runtime)",
-              "type": "Library",
-              "artifact": {
-                "size": 337868,
-                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:eventbus:6.2.33",
-              "name": "Minecraft Forge (eventbus)",
-              "type": "Library",
-              "artifact": {
-                "size": 64014,
-                "MD5": "0b419ea48f46de30ee4e6241e4fdf9d4",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/minecraftforge/eventbus/6.2.33/eventbus-6.2.33.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:forgespi:7.0.1",
-              "name": "Minecraft Forge (forgespi)",
-              "type": "Library",
-              "artifact": {
-                "size": 29831,
-                "MD5": "bd34d20287dc95201fe9475a8bbc2540",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:coremods:5.2.4",
-              "name": "Minecraft Forge (coremods)",
-              "type": "Library",
-              "artifact": {
-                "size": 31872,
-                "MD5": "5295505357ba9b98450c5e3121f82191",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/minecraftforge/coremods/5.2.4/coremods-5.2.4.jar"
-              }
-            },
-            {
-              "id": "cpw.mods:modlauncher:10.0.9",
-              "name": "Minecraft Forge (modlauncher)",
-              "type": "Library",
-              "artifact": {
-                "size": 130343,
-                "MD5": "07507d18d72661f8ae6a5da75bbf35be",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:unsafe:0.2.0",
-              "name": "Minecraft Forge (unsafe)",
-              "type": "Library",
-              "artifact": {
-                "size": 2834,
-                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:mergetool:1.1.5:api",
-              "name": "Minecraft Forge (mergetool)",
-              "type": "Library",
-              "artifact": {
-                "size": 2572,
-                "MD5": "8df9c5bf87d004ddb884eca99bc2a4b1",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
-              }
-            },
-            {
-              "id": "com.electronwill.night-config:core:3.6.4",
-              "name": "Minecraft Forge (core)",
-              "type": "Library",
-              "artifact": {
-                "size": 199834,
-                "MD5": "d83ab07267e402131fb93d899a57f5cd",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
-              }
-            },
-            {
-              "id": "com.electronwill.night-config:toml:3.6.4",
-              "name": "Minecraft Forge (toml)",
-              "type": "Library",
-              "artifact": {
-                "size": 31816,
-                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
-              }
-            },
-            {
-              "id": "org.apache.maven:maven-artifact:3.8.5",
-              "name": "Minecraft Forge (maven-artifact)",
-              "type": "Library",
-              "artifact": {
-                "size": 58077,
-                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
-              }
-            },
-            {
-              "id": "net.jodah:typetools:0.6.3",
-              "name": "Minecraft Forge (typetools)",
-              "type": "Library",
-              "artifact": {
-                "size": 18281,
-                "MD5": "d4a375bf382f726cf1a650ccb38a736c",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
-              }
-            },
-            {
-              "id": "net.minecrell:terminalconsoleappender:1.2.0",
-              "name": "Minecraft Forge (terminalconsoleappender)",
-              "type": "Library",
-              "artifact": {
-                "size": 15977,
-                "MD5": "679363fa893293791e55a21f81342f87",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
-              }
-            },
-            {
-              "id": "org.jline:jline-reader:3.12.1",
-              "name": "Minecraft Forge (jline-reader)",
-              "type": "Library",
-              "artifact": {
-                "size": 150765,
-                "MD5": "a2e7b012cd9802f83321187409174a94",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
-              }
-            },
-            {
-              "id": "org.jline:jline-terminal:3.12.1",
-              "name": "Minecraft Forge (jline-terminal)",
-              "type": "Library",
-              "artifact": {
-                "size": 211712,
-                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
-              }
-            },
-            {
-              "id": "org.spongepowered:mixin:0.8.5",
-              "name": "Minecraft Forge (mixin)",
-              "type": "Library",
-              "artifact": {
-                "size": 1089277,
-                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
-              }
-            },
-            {
-              "id": "org.openjdk.nashorn:nashorn-core:15.4",
-              "name": "Minecraft Forge (nashorn-core)",
-              "type": "Library",
-              "artifact": {
-                "size": 2167292,
-                "MD5": "a9b3360e6a486cf62c1952c7816b7d97",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:JarJarSelector:0.3.19",
-              "name": "Minecraft Forge (JarJarSelector)",
-              "type": "Library",
-              "artifact": {
-                "size": 17374,
-                "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:JarJarMetadata:0.3.19",
-              "name": "Minecraft Forge (JarJarMetadata)",
-              "type": "Library",
-              "artifact": {
-                "size": 15895,
-                "MD5": "9633546d299d4282ca68d10582be1c8f",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
-              }
-            },
-            {
-              "id": "cpw.mods:bootstraplauncher:1.1.2",
-              "name": "Minecraft Forge (bootstraplauncher)",
-              "type": "Library",
-              "artifact": {
-                "size": 8284,
-                "MD5": "48f5255aa337344c467c0150d347813d",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
-              "name": "Minecraft Forge (JarJarFileSystems)",
-              "type": "Library",
-              "artifact": {
-                "size": 32195,
-                "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:fmlloader:1.20.1-47.4.23",
-              "name": "Minecraft Forge (fmlloader)",
-              "type": "Library",
-              "artifact": {
-                "size": 270956,
-                "MD5": "028cdc4ff2a4b756fd2df2eaed507f22",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.4.23/fmlloader-1.20.1-47.4.23.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.4.23",
-              "name": "Minecraft Forge (fmlearlydisplay)",
-              "type": "Library",
-              "artifact": {
-                "size": 170512,
-                "MD5": "2947eb55001f4c4edc7dc38d476b78c7",
-                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.23/fmlearlydisplay-1.20.1-47.4.23.jar"
-              }
-            }
-          ]
-        },
-        {
-          "id": "earth.terrarium.adastra:ad_astra:1.15.20@jar",
-          "name": "Ad Astra",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 7508861,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/ad_astra-forge-1.20.1-1.15.20.jar",
-            "MD5": "1ce3f9859fce6a4eac9b7f17e375dfd2"
-          }
-        },
-        {
-          "id": "computer.heather:advancedbackups:3.7.1@jar",
-          "name": "Advanced Backups",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 338727,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/AdvancedBackups-forge-1.20-3.7.1.jar",
-            "MD5": "65fe1b122f05ad04dc2779d759e726d5"
-          }
-        },
-        {
-          "id": "com.yanny:ali:1.12.0@jar",
-          "name": "AdvancedLootInfo",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 663089,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/AdvancedLootInfo-forge-1.20.1-1.12.0.jar",
-            "MD5": "1aeeb501450801d76fe4d301c48ec794"
-          }
-        },
-        {
-          "id": "com.glodblock.github:ae2netanalyser:1.20-1.0.6-forge@jar",
-          "name": "AE2NetworkAnalyzer",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 827642,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/AE2NetworkAnalyzer-1.20-1.0.6-forge.jar",
-            "MD5": "0e94f8b4664de7697ab985e0c1cac041"
-          }
-        },
-        {
-          "id": "com.builtbroken.ai.improvements:aiimprovements:0.5.2@jar",
-          "name": "AI-Improvements",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 29553,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/AI-Improvements-1.20-0.5.2.jar",
-            "MD5": "9a6776ce2deab597d198e8755daa56ff"
-          }
-        },
-        {
-          "id": "dev.uncandango:alltheleaks:1.1.1+1.20.1-forge@jar",
-          "name": "All The Leaks",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1187126,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/alltheleaks-1.1.1+1.20.1-forge.jar",
-            "MD5": "df84fbdadaf7947dc530872fa60fbc56"
-          }
-        },
-        {
-          "id": "com.almostreliable.unified:almostunified:1.20.1-0.11.0@jar",
-          "name": "AlmostUnified",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 218740,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/almostunified-forge-1.20.1-0.11.0.jar",
-            "MD5": "7676a1c11f933ecc50fd34e4c53a0388"
-          }
-        },
-        {
-          "id": "com.starfish_studios:another_furniture:1.20.1-3.0.4@jar",
-          "name": "Another Furniture",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 2463633,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/another_furniture-forge-1.20.1-3.0.4.jar",
-            "MD5": "cc1fc7aaac4322d79446e3b5243cfe70"
-          }
-        },
-        {
-          "id": "squeek.appleskin:appleskin:2.5.1+mc1.20.1@jar",
-          "name": "AppleSkin",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 47428,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/appleskin-forge-mc1.20.1-2.5.1.jar",
-            "MD5": "dae63cea9c951dda542a4005ceef3953"
-          }
-        },
-        {
-          "id": "me.ramidzkh.mekae2:appmek:1.4.3@jar",
-          "name": "Applied Mekanistics",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 185707,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/Applied-Mekanistics-1.4.3.jar",
-            "MD5": "a7c6ad5511c4f60f2c8013bf55cae5a2"
-          }
-        },
-        {
-          "id": "appeng.core:ae2:15.4.10@jar",
-          "name": "Applied Energistics 2",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 8495956,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/appliedenergistics2-forge-15.4.10.jar",
-            "MD5": "69e47ebd80184d34176cebeb6233a234"
-          }
-        },
-        {
-          "id": "dev.architectury:architectury:9.2.14@jar",
-          "name": "Architectury",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 580602,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/architectury-9.2.14-forge.jar",
-            "MD5": "76b40d407b6bf0257dd1dab6d3d395d5"
-          }
-        },
-        {
-          "id": "moe.plushie.armourers_workshop.init.platform:armourers_workshop:2.1.4@jar",
-          "name": "Armourer's Workshop",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 3565266,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/armourersworkshop-forge-1.20.1-2.1.4.jar",
-            "MD5": "3d720853815f7ed3c77e6bdab1e9e250"
-          }
-        },
-        {
-          "id": "com.alessandro:astages:2.1.0-1.20.1@jar",
-          "name": "AStages",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 990938,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/astages-2.1.0-1.20.1-all.jar",
-            "MD5": "2d2790ca9b7515d07ca409b2f2bd99fa"
-          }
-        },
-        {
-          "id": "earth.terrarium:athena:3.1.2@jar",
-          "name": "Athena",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 91808,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/athena-forge-1.20.1-3.1.2.jar",
-            "MD5": "2086e326e8f0ff2f8d7d05c66c291484"
-          }
-        },
-        {
-          "id": "net.darkhax:attributefix:21.0.5@jar",
-          "name": "AttributeFix",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 19499,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/AttributeFix-Forge-1.20.1-21.0.5.jar",
-            "MD5": "e43cd5f7fc4b04e20127359e5bf9af80"
-          }
-        },
-        {
-          "id": "com.leclowndu93150:baguettelib:1.1.6@jar",
-          "name": "BaguetteLib",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 31898,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/baguettelib-1.20.1-Forge-1.1.6.jar",
-            "MD5": "f729a7d6d7b28ef14e4e8461a5396566"
-          }
-        },
-        {
-          "id": "net.blay09.mods:balm:7.3.38@jar",
-          "name": "Balm",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 591397,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/balm-forge-1.20.1-7.3.38-all.jar",
-            "MD5": "499467bc8050be8893b08995438cc026"
-          }
-        },
-        {
-          "id": "com.traverse:bhc:1.20.1-1.2.0@jar",
-          "name": "Baubley Heart Canisters",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 131759,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/baubley-heart-canisters-1.20.1-1.2.0.jar",
-            "MD5": "23af033045437604b239da5e783eb9f1"
-          }
-        },
-        {
-          "id": "net.ricmc:betterblockz:0.2.9-1.20.1-forge@jar",
-          "name": "BetterBlockZ",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 6932663,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/betterblockz-0.2.9-1.20.1-forge.jar",
-            "MD5": "880f353f893061bc48bb6e5418e1e6e8"
-          }
-        },
-        {
-          "id": "net.roguelogix:biggerreactors:0.6.0-beta.10.5@jar",
-          "name": "Bigger Reactors",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1243943,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/biggerreactors-1.20.1-0.6.0-beta.10.5.jar",
-            "MD5": "67385edd35dd74c9cf00df27a78106d5"
-          }
-        },
-        {
-          "id": "net.darkhax:bookshelf:20.2.15@jar",
-          "name": "Bookshelf",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 343925,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/Bookshelf-Forge-1.20.1-20.2.15.jar",
-            "MD5": "984cc53b314436f57e3bf72b8a1ba62b"
-          }
-        },
-        {
-          "id": "earth.terrarium:botarium:2.3.4@jar",
-          "name": "Botarium",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 157633,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/botarium-forge-1.20.1-2.3.4.jar",
-            "MD5": "c204f9d834da78a3972fc98da96730aa"
-          }
-        },
-        {
-          "id": "com.direwolf20:buildinggadgets2:1.0.8@jar",
-          "name": "Building Gadgets 2",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 3833683,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/buildinggadgets2-1.0.8.jar",
-            "MD5": "8e804b7a62c8011375e5821ad2a9dc07"
-          }
-        },
-        {
-          "id": "com.portingdeadmods:cable_facades:2.1.0@jar",
-          "name": "Cable Facades",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 921204,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/cable_facades-1.20.1-Forge-2.1.0.jar",
-            "MD5": "7aa28d0ddab919212172e884156d30ed"
-          }
-        },
-        {
-          "id": "earth.terrarium:cadmus:1.0.8@jar",
-          "name": "Cadmus",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 522263,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/cadmus-forge-1.20.1-1.0.8.jar",
-            "MD5": "3cc32fa3170f88bc03f53a8bf5c38170"
-          }
-        },
-        {
-          "id": "codechicken.microblock:cb_multipart:3.3.0.159@jar",
-          "name": "CBMultipart",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 527817,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/CBMultipart-1.20.1-3.3.0.159-universal.jar",
-            "MD5": "97314cd03dc4ccf850b3dd29e3770f8b"
-          }
-        },
-        {
-          "id": "dev.tr3ymix:cfm_wap:1.2.0@jar",
-          "name": "CFM Refurbished: Watt About Power?",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 71368,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/cfm_wap-1.20.1-forge-1.2.0.jar",
-            "MD5": "c23af724704b9a531fabbfb7efb3193e"
-          }
-        },
-        {
-          "id": "com.mrcrayfish.furniture:cfm:7.0.0-pre36@jar",
-          "name": "MrCrayfish's Furniture Mod",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 2613393,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/cfm-forge-1.20.1-7.0.0-pre36.jar",
-            "MD5": "faf78627dad9c9c04e7a4fa8992c54dc"
-          }
-        },
-        {
-          "id": "com.mrcrayfish.guns:cgm:1.4.19@jar",
-          "name": "MrCrayfish's Gun Mod",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1706478,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/CGM-Unofficial-1.4.19+Forge+1.20.1.jar",
-            "MD5": "f89049840f84b474c0bc1358536143a9"
-          }
-        },
-        {
-          "id": "earth.terrarium:chipped:3.0.7@jar",
-          "name": "Chipped",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 15060263,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/chipped-forge-1.20.1-3.0.7.jar",
-            "MD5": "c6c76e78805b357757bf47b04c7286e7"
-          }
-        },
-        {
-          "id": "generated.forgemod:chipped_express:1.3.2@jar",
-          "name": "ChippedExpress",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 2847056,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/ChippedExpress-universal-20x.jar",
-            "MD5": "997b2e5d2b4847f82c26a3bc3d8c5060"
-          }
-        },
-        {
-          "id": "com.supermartijn642:chunkloaders:1.2.9@jar",
-          "name": "Chunk Loaders",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 155478,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/chunkloaders-1.2.9-forge-mc1.20.1.jar",
-            "MD5": "c5522e61b188ce0637ea042116e39e85"
-          }
-        },
-        {
-          "id": "me.shedaniel.clothconfig:cloth_config:11.1.136@jar",
-          "name": "Cloth Config v10 API",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1181413,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/cloth-config-11.1.136-forge.jar",
-            "MD5": "ca5de5acbcb4a30c010aa6953bd7ef53"
-          }
-        },
-        {
-          "id": "codechicken.lib:codechickenlib:4.4.0.516@jar",
-          "name": "CodeChicken Lib",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1472390,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/CodeChickenLib-1.20.1-4.4.0.516-universal.jar",
-            "MD5": "5c2f4b34587c6596d1d50e5bf76ee448"
-          }
-        },
-        {
-          "id": "cofh.core:cofh_core:11.0.2@jar",
-          "name": "CoFH Core",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1509649,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/cofh_core-1.20.1-11.0.2.56.jar",
-            "MD5": "8d5ecdae594951c49899b6bf38b41b7d"
-          }
-        },
-        {
-          "id": "com.momosoftworks.coldsweat:cold_sweat:2.4.1@jar",
-          "name": "Cold Sweat",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 2699325,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/ColdSweat-2.4.1.jar",
-            "MD5": "db00967ce5964311262eeede6d6104ee"
-          }
-        },
-        {
-          "id": "com.natamus:collective:8.27@jar",
+          "id": "com.natamus:collective:8.32@jar",
           "name": "Collective",
-          "type": "ForgeMod",
+          "type": "FabricMod",
           "artifact": {
-            "size": 721104,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/collective-1.20.1-8.27.jar",
-            "MD5": "cc37f745721bb6e60265f434f5556cc5"
+            "size": 1046147,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/collective-1.21.11-8.32.jar",
+            "MD5": "6c450089408cb3e23be4b2f607979272"
           }
         },
         {
-          "id": "dev.djefrey:colorwheel:1.2.9+mc1.20.1@jar",
-          "name": "Colorwheel",
-          "type": "ForgeMod",
+          "id": "me.pepperbell:continuity:3.0.1-beta.1+1.21.11@jar",
+          "name": "Continuity",
+          "type": "FabricMod",
           "artifact": {
-            "size": 1028327,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/colorwheel-forge-1.2.9+mc1.20.1.jar",
-            "MD5": "0fff85e0dfb04958825cad6399f8215c"
+            "size": 997125,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/continuity-3.0.1-beta.1+1.21.11.jar",
+            "MD5": "d0011d547cfb5428b25071a2b518a776"
           }
         },
         {
-          "id": "com.illusivesoulworks:comforts:6.4.0+1.20.1@jar",
-          "name": "Comforts",
-          "type": "ForgeMod",
+          "id": "dev.isxander:controlify:2.5.1+1.21.11-fabric@jar",
+          "name": "Controlify",
+          "type": "FabricMod",
           "artifact": {
-            "size": 382083,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/comforts-forge-6.4.0+1.20.1.jar",
-            "MD5": "a88fcc168de1a0f9b2ae4e7cbe8a8408"
+            "size": 8137991,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/controlify-2.5.1+1.21.11-fabric.jar",
+            "MD5": "653ec13e77f5fb14acba2cf5656a0ff7"
           }
         },
         {
-          "id": "com.lgmrszd:compressedcreativity:1.20.1-0.2.0@jar",
-          "name": "Compressed Creativity",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 749383,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/compressedcreativity-1.20.1-0.2.0-all.jar",
-            "MD5": "19babf6b96a261c8ac0cae7362a8321d"
-          }
-        },
-        {
-          "id": "com.mrcrayfish:configured:2.2.3@jar",
-          "name": "Configured",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 418929,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/configured-forge-1.20.1-2.2.3.jar",
-            "MD5": "9380dc31c599c523a5682a4025fceb92"
-          }
-        },
-        {
-          "id": "com.blamejared:controlling:12.0.2@jar",
+          "id": "generated.fabricmod:controlling:29.0.1@jar",
           "name": "Controlling",
-          "type": "ForgeMod",
+          "type": "FabricMod",
           "artifact": {
-            "size": 115280,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/Controlling-forge-1.20.1-12.0.2.jar",
-            "MD5": "952274bc9994bba9733e8747558f73fa"
+            "size": 83259,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/Controlling-fabric-1.21.11-29.0.1.jar",
+            "MD5": "c4c1c3116df64ec4aeea0c6060f836f7"
           }
         },
         {
-          "id": "com.copycatsplus:copycats:3.0.7+mc.1.20.1-forge@jar",
-          "name": "Create: Copycats+",
-          "type": "ForgeMod",
+          "id": "io.github.thepoultryman:cropsloverain:3.2.0@jar",
+          "name": "Crops Love Rain",
+          "type": "FabricMod",
           "artifact": {
-            "size": 1996097,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/copycats-3.0.7+mc.1.20.1-forge.jar",
-            "MD5": "47e13c8058d400e4a6316d00f451b29c"
+            "size": 32685,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/cropsloverain-3.2.0.jar",
+            "MD5": "984cd335ab00f0ce3668f3a3ad5ddc63"
           }
         },
         {
-          "id": "com.corosus.coroutil.loader:coroutil:1.20.1-1.3.7@jar",
-          "name": "CoroUtil",
-          "type": "ForgeMod",
+          "id": "fuzs.cutthrough:cutthrough:21.11.0@jar",
+          "name": "Cut Through",
+          "type": "FabricMod",
           "artifact": {
-            "size": 64187,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/coroutil-forge-1.20.1-1.3.7.jar",
-            "MD5": "6fb9ccbe8c05c1da61c224d1127e9643"
+            "size": 25500,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/CutThrough-v21.11.0-mc1.21.11-Fabric.jar",
+            "MD5": "69088a7fa6dacb3b3a03a3381cd99222"
           }
         },
         {
-          "id": "de.maxhenkel:corpse:1.20.1-1.0.23@jar",
-          "name": "Corpse",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 245644,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/corpse-forge-1.20.1-1.0.23.jar",
-            "MD5": "a486f676f5e47e5846e31cb66cb5c16d"
-          }
-        },
-        {
-          "id": "com.leclowndu93150:corpsecurioscompat:4.0.1@jar",
-          "name": "Corpse Curios Compatibility",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 22535,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/corpsecurioscompat-1.20.1-Forge-4.0.1.jar",
-            "MD5": "8d99f45c935897fe1069c5e1f41c14b4"
-          }
-        },
-        {
-          "id": "lain.mods.cos.init:cosmeticarmorreworked:1.20.1-v1a@jar",
-          "name": "CosmeticArmorReworked",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 88752,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/cosmeticarmorreworked-1.20.1-v1a.jar",
-            "MD5": "2454075e9a25cbadc0fce66502e3261d"
-          }
-        },
-        {
-          "id": "com.ofek2608:crafting_on_a_stick:1.1.5@jar",
-          "name": "Crafting On A Stick",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 55252,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/crafting-on-a-stick-1.20.1-1.1.5.jar",
-            "MD5": "8158077880aea9cacd4eabb6f47b67b9"
-          }
-        },
-        {
-          "id": "net.blay09.mods:craftingtweaks:18.2.9@jar",
-          "name": "CraftingTweaks",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 230696,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/craftingtweaks-forge-1.20.1-18.2.9.jar",
-            "MD5": "9d9de3a39fd928997f3d7d0c5b62d54f"
-          }
-        },
-        {
-          "id": "net.orion:create_cold_sweat:1.1.2@jar",
-          "name": "Create: Cold Sweat",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 216702,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/create_cold_sweat-1.1.2.jar",
-            "MD5": "dc2479b4e663f9a69fbd8d1c23f203cf"
-          }
-        },
-        {
-          "id": "com.hlysine:create_connected:1.2.2-mc1.20.1@jar",
-          "name": "Create: Connected",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 6781957,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/create_connected-1.2.2-mc1.20.1-all.jar",
-            "MD5": "36559fc212358f062951691c78550b1a"
-          }
-        },
-        {
-          "id": "com.oierbravo.createmechanicalextruder:create_mechanical_extruder:1.20.1-1.6.10-6.0.6@jar",
-          "name": "Create Mechanical Extruder",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 513561,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/create_mecanical_extruder-1.20.1-1.6.11-6.0.6.jar",
-            "MD5": "1efc306ab05c8e8aec85c25e75eaf063"
-          }
-        },
-        {
-          "id": "com.simibubi:create:6.0.8@jar",
-          "name": "Create",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 19170905,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/create-1.20.1-6.0.8.jar",
-            "MD5": "6ebc5c57638c1678359eac65b924c310"
-          }
-        },
-        {
-          "id": "com.mrh0:createaddition:1.20.1-1.3.3@jar",
-          "name": "Create Crafts & Additions",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1577313,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/createaddition-1.20.1-1.3.3.jar",
-            "MD5": "1c0d2275ead3e4756d77ac5a86f135ab"
-          }
-        },
-        {
-          "id": "com.moepus:createbetterfps:1.1.2@jar",
-          "name": "CreateBetterFps",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 25214,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/createbetterfps-1.20.1-1.1.2.jar",
-            "MD5": "f6e19dcecf60a85efe6c05372d331033"
-          }
-        },
-        {
-          "id": "com.github.talrey:createdeco:2.0.3-1.20.1-forge@jar",
-          "name": "Create Deco",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 3509013,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/createdeco-2.0.3-1.20.1-forge.jar",
-            "MD5": "3e0976b862fd087493c7356f623f5cd7"
-          }
-        },
-        {
-          "id": "fathertoast.crust.common.core:crust:4.17.28@jar",
-          "name": "Crust",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1461134,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/crust-1.20.1-4.17.28.jar",
-            "MD5": "6b196c051c999d853cb586b8c111fd39"
-          }
-        },
-        {
-          "id": "top.theillusivec4:curios:5.14.1+1.20.1@jar",
-          "name": "Curios API",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 398066,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/curios-forge-5.14.1+1.20.1.jar",
-            "MD5": "2fdcc97cbc66c4b2492b407c792e7159"
-          }
-        },
-        {
-          "id": "dev.kir.cubeswithoutborders.client:cubes_without_borders:3.0.0+mc1.20@jar",
+          "id": "generated.fabricmod:cubes-without-borders:3.0.0-build.14+mc1.21.11@jar",
           "name": "Cubes Without Borders",
-          "type": "ForgeMod",
+          "type": "FabricMod",
           "artifact": {
-            "size": 258613,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/cwb-forge-3.0.0+mc1.20.jar",
-            "MD5": "71c31fd8c44e94876c520c3f58fcd95b"
+            "size": 78535,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/cwb-fabric-3.0.0-build.14+mc1.21.11.jar",
+            "MD5": "3c015b71b56c81ced1fc4a90f0563238"
           }
         },
         {
-          "id": "com.illusivesoulworks:diet:3.0.2+1.20.1@jar",
-          "name": "Diet",
-          "type": "ForgeMod",
+          "id": "com.intijir.daycount:daycountmod:1.3.5-mc1.21.9@jar",
+          "name": "Day Count",
+          "type": "FabricMod",
           "artifact": {
-            "size": 424810,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/diet-forge-3.0.2+1.20.1.jar",
-            "MD5": "790f49f4ffb15d4cc4ea0fee1b082228"
+            "size": 1034683,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/DayCount-1.3.5-mc1.21.9.jar",
+            "MD5": "42c441c9aef7dc452aae642a831252e0"
           }
         },
         {
-          "id": "net.mehvahdjukaar:dummmmmmy:1.20-2.0.11@jar",
-          "name": "MmmMmmMmmMmm",
-          "type": "ForgeMod",
+          "id": "fuzs.deleteworldstotrash:deleteworldstotrash:21.11.0@jar",
+          "name": "Delete Worlds To Trash",
+          "type": "FabricMod",
           "artifact": {
-            "size": 839685,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/dummmmmmy-1.20-2.0.12-forge.jar",
-            "MD5": "cce8b85852b9a3fff8570a19ec3d9e90"
+            "size": 37659,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/DeleteWorldsToTrash-v21.11.0-mc1.21.11-Fabric.jar",
+            "MD5": "5509f80380269242ab0830aecac3a646"
           }
         },
         {
-          "id": "link.e4mc:e4mc:6.1.2@jar",
-          "name": "E4mc",
-          "type": "ForgeMod",
+          "id": "com.redlimerl.detailab:detailabreconst:5.0.0+1.21.9_11-fabric@jar",
+          "name": "Detail Armor Bar Reconstructed",
+          "type": "FabricMod",
           "artifact": {
-            "size": 1296046,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/e4mc-forge-6.1.2.jar",
-            "MD5": "fb6ead889f3be17cb46fcd4acab6b70d"
+            "size": 98258,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/DetailArmorBarReconstructed-5.0.0+1.21.9_11-fabric.jar",
+            "MD5": "8f61ca97f20527025790bb8b024ae09b"
           }
         },
         {
-          "id": "xyz.vsngamer:elevatorid:1.20.1-1.9.1-forge@jar",
-          "name": "Elevator Mod",
-          "type": "ForgeMod",
+          "id": "com.natamus:doubledoors:7.2@jar",
+          "name": "Double Doors",
+          "type": "FabricMod",
           "artifact": {
-            "size": 187868,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/elevatorid-1.20.1-1.9.1-forge.jar",
-            "MD5": "b4784b8ae695f179d0aefaaa82018968"
+            "size": 78341,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/doubledoors-1.21.11-7.2.jar",
+            "MD5": "0635903142a5a6b8c2c5f35b0c3cb776"
           }
         },
         {
-          "id": "me.jellysquid.mods.sodium.client:embeddium:0.3.31+mc1.20.1@jar",
-          "name": "Embeddium",
-          "type": "ForgeMod",
+          "id": "generated.fabricmod:mr_dungeons_andtaverns:1-v5.1.0@jar",
+          "name": "Dungeons and Taverns",
+          "type": "FabricMod",
           "artifact": {
-            "size": 1320675,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/embeddium-0.3.31+mc1.20.1.jar",
-            "MD5": "1dfb2ee49ce9ad5d484ff3eea0d628b7"
+            "size": 38916351,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/dungeons-and-taverns-v5.1.0.jar",
+            "MD5": "3a20438fbaabe8d92524bc88193656f9"
           }
         },
         {
-          "id": "net.darkhax:enchdesc:17.1.21@jar",
-          "name": "EnchantmentDescriptions",
-          "type": "ForgeMod",
+          "id": "fuzs.easyshulkerboxes:easyshulkerboxes:21.11.0@jar",
+          "name": "Easy Shulker Boxes",
+          "type": "FabricMod",
           "artifact": {
-            "size": 66883,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/EnchantmentDescriptions-Forge-1.20.1-17.1.21.jar",
-            "MD5": "82f3fc15d2b48e0bde064704e76a849a"
+            "size": 1036581,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/EasyShulkerBoxes-v21.11.0-mc1.21.11-Fabric.jar",
+            "MD5": "97bfc7d057398ea351cde0ad38a970f6"
           }
         },
         {
-          "id": "com.enderio:enderio:6.2.18-beta@jar",
-          "name": "Ender IO",
-          "type": "ForgeMod",
+          "id": "traben.entity_model_features:entity_model_features:3.0.10@jar",
+          "name": "Entity Model Features",
+          "type": "FabricMod",
           "artifact": {
-            "size": 8086393,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/EnderIO-1.20.1-6.2.18-beta-all.jar",
-            "MD5": "49dc52314e9cdba25f5c0db0f0c2909a"
+            "size": 495879,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/entity_model_features_1.21.11-fabric-3.0.10.jar",
+            "MD5": "54de535cc44fcc4ca288ad9112443ab0"
           }
         },
         {
-          "id": "codechicken.enderstorage:enderstorage:2.11.0.188@jar",
-          "name": "EnderStorage",
-          "type": "ForgeMod",
+          "id": "traben.entity_texture_features:entity_texture_features:7.0.8@jar",
+          "name": "Entity Texture Features",
+          "type": "FabricMod",
           "artifact": {
-            "size": 246017,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/EnderStorage-1.20.1-2.11.0.188-universal.jar",
-            "MD5": "8c6cc85f76b45b52d5feef1baa10f764"
+            "size": 729359,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/entity_texture_features_1.21.11-fabric-7.0.8.jar",
+            "MD5": "959b8765e641f6299f05276cde9a0578"
           }
         },
         {
-          "id": "insane96mcp.enhancedai:enhancedai:2.6.4@jar",
-          "name": "Enhanced AI",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1211248,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/enhancedai-2.6.4.jar",
-            "MD5": "50e0436f9439da92e254fc2a56473b0c"
-          }
-        },
-        {
-          "id": "dev.tr7zw:entityculling:1.10.3@jar",
+          "id": "dev.tr7zw:entityculling:1.9.5@jar",
           "name": "EntityCulling",
-          "type": "ForgeMod",
+          "type": "FabricMod",
           "artifact": {
-            "size": 1589279,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/entityculling-forge-1.10.3-mc1.20.1.jar",
-            "MD5": "e76c46a04f3d697e74e6edd42746af19"
+            "size": 1571825,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/entityculling-fabric-1.9.5-mc1.21.11.jar",
+            "MD5": "116a6dd3e9318eba93ecf58a51caf248"
           }
         },
         {
-          "id": "thedarkcolour.exdeorum:exdeorum:1.50@jar",
-          "name": "Ex Deorum",
-          "type": "ForgeMod",
+          "id": "generated.fabricmod:essential-container:1.0.0@jar",
+          "name": "Essential-container",
+          "type": "FabricMod",
           "artifact": {
-            "size": 2072162,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/exdeorum-1.50.jar",
-            "MD5": "0f621b0d35005900599559fdca226172"
+            "size": 53248720,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/Essential_1-4-1-1_fabric_1-21-11.jar",
+            "MD5": "c2fa9a4660fd5c5956c4bcd0f220dfb2"
           }
         },
         {
-          "id": "com.eruannie_9:experimentalsettingsdisabler:3.0@jar",
-          "name": "Experimental Settings Disabler",
-          "type": "ForgeMod",
+          "id": "net.superkat:explosiveenhancement:1.4.1-1.21.11@jar",
+          "name": "Explosive Enhancement",
+          "type": "FabricMod",
           "artifact": {
-            "size": 8264,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/experimentalsettingsdisabler-1.20.1-3.0.jar",
-            "MD5": "275afc7239783415aa6ff432576fef9a"
+            "size": 114743,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/explosive-enhancement-1.4.1-1.21.11.jar",
+            "MD5": "46afa79104784e7ea032f45149f8be0d"
           }
         },
         {
-          "id": "com.leobeliik:extremesoundmuffler:3.51@jar",
-          "name": "Extreme Sound Muffler",
-          "type": "ForgeMod",
+          "id": "generated.fabricmod:fabric-api:0.141.6+1.21.11@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
           "artifact": {
-            "size": 270331,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/ExtremeSoundMuffler-3.51-forge-1.20.1.jar",
-            "MD5": "b7821e5adbeeea69b6877851f803e350"
+            "size": 2426039,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/fabric-api-0.141.6+1.21.11.jar",
+            "MD5": "d16a96ba9b0797054a012cfb1f5fd6a8"
           }
         },
         {
-          "id": "com.periut.factoryblocks:factory_blocks:1.4.0+mc1.20.1@jar",
-          "name": "Factory Blocks",
-          "type": "ForgeMod",
+          "id": "generated.fabricmod:fabric-language-kotlin:1.13.8+kotlin.2.3.0@jar",
+          "name": "Fabric Language Kotlin",
+          "type": "FabricMod",
           "artifact": {
-            "size": 808664,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/factory_blocks-forge-1.4.0+mc1.20.1.jar",
-            "MD5": "6bf27e66218002293633096f706ea07e"
+            "size": 7618852,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/fabric-language-kotlin-1.13.8+kotlin.2.3.0.jar",
+            "MD5": "964103287b72e606de845420d1a8cc57"
           }
         },
         {
-          "id": "vectorwing.farmersdelight:farmersdelight:1.20.1-1.3.2@jar",
-          "name": "Farmer's Delight",
-          "type": "ForgeMod",
+          "id": "generated.fabricmod:ferritecore:8.0.3@jar",
+          "name": "FerriteCore",
+          "type": "FabricMod",
           "artifact": {
-            "size": 3313327,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/FarmersDelight-1.20.1-1.3.2.jar",
-            "MD5": "39459d8e62ef83e36c2b54952dbe2c2f"
+            "size": 77269,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/ferritecore-8.0.3-fabric.jar",
+            "MD5": "d11e2d40caff550c11e14d622dfe63cb"
           }
         },
         {
-          "id": "net.olafski:fastleafdecay:32@jar",
-          "name": "Fast Leaf Decay",
-          "type": "ForgeMod",
+          "id": "com.moulberry:flashback:0.39.1@jar",
+          "name": "Flashback",
+          "type": "FabricMod",
           "artifact": {
-            "size": 9835,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/FastLeafDecay-32.jar",
-            "MD5": "20df3e3525622d6ea38a243be828ef38"
+            "size": 211362862,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/Flashback-0.39.1-for-MC1.21.11.jar",
+            "MD5": "bea5cf9aa4079af0bb7e65f14c99af68"
           }
         },
         {
-          "id": "dev.shadowsoffire:fastsuite:5.1.2@jar",
-          "name": "Fast Suite",
-          "type": "ForgeMod",
+          "id": "fuzs.forgeconfigapiport.fabric.impl:forgeconfigapiport:21.11.1@jar",
+          "name": "Forge Config API Port",
+          "type": "FabricMod",
           "artifact": {
-            "size": 26600,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/FastSuite-1.20.1-5.1.2.jar",
-            "MD5": "efca8ff65bbf93e3a0f776998ee181e9"
+            "size": 598009,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/ForgeConfigAPIPort-v21.11.1-mc1.21.11-Fabric.jar",
+            "MD5": "625e3619f1bd646b203b17717db2200a"
           }
         },
         {
-          "id": "malte0811.ferritecore:ferritecore:6.0.1@jar",
-          "name": "Ferrite Core",
-          "type": "ForgeMod",
+          "id": "net.xolt:freecam:1.3.6+mc1.21.11@jar",
+          "name": "Freecam",
+          "type": "FabricMod",
           "artifact": {
-            "size": 123034,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/ferritecore-6.0.1-forge.jar",
-            "MD5": "f52f538207a4829d7060550092ce2383"
+            "size": 1146167,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/freecam-fabric-1.3.6+mc1.21.11.jar",
+            "MD5": "a4cfdbdf3009cd6c82b799edb558c16f"
           }
         },
         {
-          "id": "io.github.jonaspfi:forcedseed:1.1.1@jar",
-          "name": "Forced Seed",
-          "type": "ForgeMod",
+          "id": "generated.fabricmod:glowing-torchflower:1.3.0@jar",
+          "name": "Glowing Torchflower",
+          "type": "FabricMod",
           "artifact": {
-            "size": 842787,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/forcedseed-forge-1.20.1-1.1.1.jar",
-            "MD5": "dd9f6e64e0ce2e5a037aa571ee2e648b"
+            "size": 862449,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/glowing-torchflower-1.21.2-1.3.0.jar",
+            "MD5": "d51e208d384bfd3b2920883aa4637c62"
           }
         },
         {
-          "id": "xfacthd.framedblocks:framedblocks:9.4.3@jar",
-          "name": "FramedBlocks",
-          "type": "ForgeMod",
+          "id": "generated.fabricmod:mr_hardcore_reviveplus:1.10.2@jar",
+          "name": "Hardcore Revive+",
+          "type": "FabricMod",
           "artifact": {
-            "size": 4251314,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/FramedBlocks-9.4.3.jar",
-            "MD5": "9afefc077f00c192b0f953c2987c5a66"
+            "size": 148756,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/hardcore-revive-plus-1.10.2.jar",
+            "MD5": "70ba6dcd5ce6870275af6e3ae9168e52"
           }
         },
         {
-          "id": "com.mrcrayfish:framework:0.8.0@jar",
-          "name": "Framework",
-          "type": "ForgeMod",
+          "id": "io.github.mortuusars:horseman:1.6.0@jar",
+          "name": "Horseman",
+          "type": "FabricMod",
           "artifact": {
-            "size": 383868,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/framework-forge-1.20.1-0.8.0.jar",
-            "MD5": "6d9a54cd004b15028673b309243e07a2"
+            "size": 270765,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/horseman-fabric-1.21.11-1.6.0.jar",
+            "MD5": "4b4911f34f13e8edf4a359ade8140cbb"
           }
         },
         {
-          "id": "com.buuz135:functionalstorage:1.20.1-1.2.13@jar",
-          "name": "Functional Storage",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 682220,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/functionalstorage-1.20.1-1.2.13.jar",
-            "MD5": "b8c57bd1a9c97ba96101c56557062c6f"
-          }
-        },
-        {
-          "id": "com.supermartijn642:fusion:1.2.12@jar",
-          "name": "Fusion",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 544586,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/fusion-1.2.12-forge-mc1.20.1.jar",
-            "MD5": "aad8a16b48cd54cd75e34bf4f40eec1b"
-          }
-        },
-        {
-          "id": "software.bernie.example:geckolib:4.8.3@jar",
-          "name": "GeckoLib 4",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1039046,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/geckolib-forge-1.20.1-4.8.3.jar",
-            "MD5": "33b0f8fe0a8d59fcf9d4e222741ecba7"
-          }
-        },
-        {
-          "id": "se.gory_moon:globalgamerules:8.1.0.12@jar",
-          "name": "Global GameRules",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 24511,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/GlobalGameRules-1.20.1-8.1.0.12.jar",
-            "MD5": "29e67410430795f70b3ee5fc39df5b40"
-          }
-        },
-        {
-          "id": "com.glodblock.github:glodium:1.20-1.5-forge@jar",
-          "name": "Glodium",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 60550,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/Glodium-1.20-1.5-forge.jar",
-            "MD5": "fc1d04ddd88b378780041d5f06d50f8a"
-          }
-        },
-        {
-          "id": "guideme:guideme:20.1.15@jar",
-          "name": "GuideME",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 9414827,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/guideme-20.1.15.jar",
-            "MD5": "0d892c2b4af52459ac6a639040374916"
-          }
-        },
-        {
-          "id": "fuzs.hangglider:hangglider:8.0.1@jar",
-          "name": "Hang Glider",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 136076,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/HangGlider-v8.0.1-1.20.1-Forge.jar",
-            "MD5": "37427de6ac9a115cb481527f18821c00"
-          }
-        },
-        {
-          "id": "hardcorequesting:hardcorequesting:1.20.1-5.16.0@jar",
-          "name": "Hardcore Questing Mode",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1452133,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/HQM-1.20.1-5.16.0-forge.jar",
-            "MD5": "0dd86ebabb99ae37574ead9fe6c02b4f"
-          }
-        },
-        {
-          "id": "com.ultrakox:idontwantportalyet:1.20-1.9@jar",
-          "name": "I dont want portal yet",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 163305,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/idontwantportalyet-1.20-1.9.jar",
-            "MD5": "c7edbb01064ada5038b16d35ea9aa578"
-          }
-        },
-        {
-          "id": "net.raphimc:immediatelyfast:1.5.4+1.20.4@jar",
+          "id": "generated.fabricmod:immediatelyfast:1.14.1+1.21.11@jar",
           "name": "ImmediatelyFast",
-          "type": "ForgeMod",
+          "type": "FabricMod",
           "artifact": {
-            "size": 538992,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/ImmediatelyFast-Forge-1.5.4+1.20.4.jar",
-            "MD5": "8fb21bb328cc322c6d9749eff087509f"
+            "size": 308452,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/ImmediatelyFast-Fabric-1.14.1+1.21.11.jar",
+            "MD5": "82f68f961c4decf8fbe7d29f5c35f39c"
           }
         },
         {
-          "id": "com.ordana:immersive_weathering:1.20.1-2.0.5@jar",
-          "name": "Immersive Weathering",
-          "type": "ForgeMod",
+          "id": "derp.immersivehotbar:immersive-hotbar:1.0.4-1.21.9@jar",
+          "name": "Immersive Hotbar",
+          "type": "FabricMod",
           "artifact": {
-            "size": 2269048,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/immersive_weathering-1.20.1-2.0.5-forge.jar",
-            "MD5": "f424b363799c2fd29362c618c8a30bda"
+            "size": 205168,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/immersive-hotbar-1.0.4-1.21.9.jar",
+            "MD5": "d226df73279559ad2b012a36b1c0577f"
           }
         },
         {
-          "id": "mcjty.incontrol:incontrol:1.20-9.4.6@jar",
-          "name": "InControl",
-          "type": "ForgeMod",
+          "id": "generated.fabricmod:iris:1.10.7+mc1.21.11@jar",
+          "name": "Iris",
+          "type": "FabricMod",
           "artifact": {
-            "size": 361894,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/incontrol-1.20-9.4.6.jar",
-            "MD5": "4812d8f692a52668176909b87c937e8a"
+            "size": 2807547,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/iris-fabric-1.10.7+mc1.21.11.jar",
+            "MD5": "5a7742b06041a0a98aa5df00ec8ce9a9"
           }
         },
         {
-          "id": "com.buuz135.industrial:industrialforegoing:3.5.22@jar",
-          "name": "Industrial Foregoing",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 4621983,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/industrial-foregoing-1.20.1-3.5.22.jar",
-            "MD5": "143439e7e71fee295d6cdb9727614224"
-          }
-        },
-        {
-          "id": "insane96mcp.insanelib:insanelib:1.21.1@jar",
-          "name": "InsaneLib",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 327104,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/insanelib-1.21.1.jar",
-            "MD5": "7facc1484de0b19542e186f5cc3f9afc"
-          }
-        },
-        {
-          "id": "snownee.jade:jade:11.13.2+forge@jar",
+          "id": "snownee.jade:jade:21.1.6+fabric@jar",
           "name": "Jade",
-          "type": "ForgeMod",
+          "type": "FabricMod",
           "artifact": {
-            "size": 552486,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/Jade-1.20.1-Forge-11.13.2.jar",
-            "MD5": "7c349670f77fd64b9e9854c4a8d82fcc"
+            "size": 950484,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/Jade-1.21.11-Fabric-21.1.6.jar",
+            "MD5": "e9af070e303b6dda6ee86e39a8baedcc"
           }
         },
         {
-          "id": "mezz.jei:jei:15.20.0.130@jar",
-          "name": "Just Enough Items",
-          "type": "ForgeMod",
+          "id": "io.github.jamalam360:jamlib:1.3.5+1.21.11@jar",
+          "name": "JamLib",
+          "type": "FabricMod",
           "artifact": {
-            "size": 1409705,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/jei-1.20.1-forge-15.20.0.130.jar",
-            "MD5": "a47e80ce79ecbb6c60e28880ab997d1d"
+            "size": 183684,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/jamlib-fabric-1.3.5+1.21.11.jar",
+            "MD5": "456d8d9ed6393f40ca81b05d78598967"
           }
         },
         {
-          "id": "com.snowshock35:jeiintegration:10.0.0@jar",
-          "name": "JEI Integration",
-          "type": "ForgeMod",
+          "id": "generated.fabricmod:lambdynlights:4.9.1+1.21.11@jar",
+          "name": "LambDynamicLights",
+          "type": "FabricMod",
           "artifact": {
-            "size": 26940,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/jeiintegration_1.20.1-10.0.0.jar",
-            "MD5": "a322f8b0eddad9888f1abe444918878c"
+            "size": 2144865,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/lambdynamiclights-4.9.1+1.21.11.jar",
+            "MD5": "35d4fa10a0e9678d60022e73ae9fe814"
           }
         },
         {
-          "id": "journeymap:journeymap:5.10.3@jar",
-          "name": "Journeymap",
-          "type": "ForgeMod",
+          "id": "generated.fabricmod:libjf:3.19.8@jar",
+          "name": "LibJF",
+          "type": "FabricMod",
           "artifact": {
-            "size": 7160405,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/journeymap-1.20.1-5.10.3-forge.jar",
-            "MD5": "2181bd6b7161f06726560b9382235611"
+            "size": 1548150,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/libjf-3.19.8.jar",
+            "MD5": "d6a512ce2f37bd80fc24d5f7eb01f856"
           }
         },
         {
-          "id": "com.bobvarioa:kjsindustrialforegoing:1.0@jar",
-          "name": "KJS Industrial Foregoing",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 17153,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/kjsindustrialforegoing-1.0.jar",
-            "MD5": "3bb5908c11642f4168d45c171b868fc5"
-          }
-        },
-        {
-          "id": "generated.forgemod:kotlinforforge:4.12.0-all@jar",
-          "name": "Kotlinforforge",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 7442998,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/kotlinforforge-4.12.0-all.jar",
-            "MD5": "d6a40dede74edbe646b34a1bafd53b4d"
-          }
-        },
-        {
-          "id": "dev.latvian.mods.kubejs.create:kubejs_create:2001.3.0-build.8@jar",
-          "name": "KubeJS Create",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 30960,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/kubejs-create-forge-2001.3.0-build.8.jar",
-            "MD5": "c76f71ba6d16e6fe50e76b1862b58dff"
-          }
-        },
-        {
-          "id": "dev.latvian.mods:kubejs:2001.6.5-build.26@jar",
-          "name": "KubeJS",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1658792,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/kubejs-forge-2001.6.5-build.26.jar",
-            "MD5": "64ee6615f19fb9b2b11fee8b7385eaaf"
-          }
-        },
-        {
-          "id": "dev.latvian.kubejs.mekanism:kubejs_mekanism:2001.1.5.1-build.2@jar",
-          "name": "KubeJS Mekanism",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 72456,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/kubejs-mekanism-forge-2001.1.5.1-build.2.jar",
-            "MD5": "b81dfaf433fddd82ef41a3984be80934"
-          }
-        },
-        {
-          "id": "dev.latvian.mods.kubejs.thermal:kubejs_thermal:2001.1.10-build.5@jar",
-          "name": "KubeJS Thermal",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 27872,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/kubejs-thermal-2001.1.10-build.5.jar",
-            "MD5": "daf89047d31afad49ce193e170dfdabd"
-          }
-        },
-        {
-          "id": "pie.ilikepiefoo:kubejsadditions:4.3.4@jar",
-          "name": "KubeJS Addditions (Forge)",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 321976,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/kubejsadditions-forge-4.3.4.jar",
-            "MD5": "3fd00cc0a566ed51706fedb677b19217"
-          }
-        },
-        {
-          "id": "com.direwolf20:laserio:1.5.0@jar",
-          "name": "LaserIO UEL",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1369334,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/laserio-uel-1.5.0.jar",
-            "MD5": "4bd91048af34ac25ff5e78ee7a77f4a8"
-          }
-        },
-        {
-          "id": "net.pawjwp:legumedelight:1.3.1@jar",
-          "name": "Legume Delight",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 207283,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/legumedelight-1.3.1.jar",
-            "MD5": "8637cd969036be9619436aafc95713ae"
-          }
-        },
-        {
-          "id": "dev.schhmarrn:lighty:2.1.2+1.20.1@jar",
+          "id": "dev.schmarrn:lighty:3.1.3@jar",
           "name": "Lighty",
-          "type": "ForgeMod",
+          "type": "FabricMod",
           "artifact": {
-            "size": 47410,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/lighty-forge-2.1.2+1.20.1.jar",
-            "MD5": "5c10e0601e1b2d85d63fdc7b0348aa3e"
+            "size": 91694,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/lighty-fabric-3.1.3+1.21.11.jar",
+            "MD5": "f1ee22120e081401a4d82c3c1040144c"
           }
         },
         {
-          "id": "io.wispforest:lmft:1.0.4+1.20.1@jar",
-          "name": "Load My F***ing Tags",
-          "type": "ForgeMod",
+          "id": "fi.dy.masa:litematica:0.26.13@jar",
+          "name": "Litematica",
+          "type": "FabricMod",
           "artifact": {
-            "size": 178625,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/lmft-1.0.4+1.20.1-forge.jar",
-            "MD5": "b6fef15e42caec14db87f5aa498233e8"
+            "size": 1958708,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/litematica-fabric-1.21.11-0.26.13.jar",
+            "MD5": "4a6d42243adcf2c5863bf4418144c87a"
           }
         },
         {
-          "id": "slimeknights.mantle:mantle:1.11.104@jar",
-          "name": "Mantle",
-          "type": "ForgeMod",
+          "id": "net.caffeinemc.mods:lithium:0.21.2+mc1.21.11@jar",
+          "name": "Lithium",
+          "type": "FabricMod",
           "artifact": {
-            "size": 1625005,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/Mantle-1.20.1-1.11.104.jar",
-            "MD5": "7d5d50ac6c3d8791e494dc5173297d02"
+            "size": 858481,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/lithium-fabric-0.21.2+mc1.21.11.jar",
+            "MD5": "922e63fbe89c5cd6550f0b5112c1c041"
           }
         },
         {
-          "id": "mekanism:mekanism:10.4.15@jar",
-          "name": "Mekanism",
-          "type": "ForgeMod",
+          "id": "net.pneumono:locator_lodestones:1.4.5+1.21.9+B@jar",
+          "name": "Locator Lodestones",
+          "type": "FabricMod",
           "artifact": {
-            "size": 12554112,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/Mekanism-1.20.1-10.4.15.75.jar",
-            "MD5": "cdb1519f6b7beef6036fb32c2d3c2c65"
+            "size": 37596,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/locator_lodestones-1.4.5+1.21.9+B.jar",
+            "MD5": "b6211e3dd850be377dd10e96db04a71f"
           }
         },
         {
-          "id": "mekanism.additions:mekanismadditions:10.4.15@jar",
-          "name": "Mekanism: Additions",
-          "type": "ForgeMod",
+          "id": "fi.dy.masa:malilib:0.27.18@jar",
+          "name": "MaLiLib",
+          "type": "FabricMod",
           "artifact": {
-            "size": 1136799,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/MekanismAdditions-1.20.1-10.4.15.75.jar",
-            "MD5": "065799ceac61909c326a132ddad3f591"
+            "size": 2149012,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/malilib-fabric-1.21.11-0.27.18.jar",
+            "MD5": "60ef4c446d25cd8e0fc8f299ffad457f"
           }
         },
         {
-          "id": "mob_grinding_utils:mob_grinding_utils:1.20.1-1.1.0@jar",
-          "name": "Mob Grinding Utils",
-          "type": "ForgeMod",
+          "id": "com.terraformersmc:modmenu:17.0.0-beta.2@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
           "artifact": {
-            "size": 1357176,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/mob_grinding_utils-1.20.1-1.1.0.jar",
-            "MD5": "74fface69f2b44f862366c29b3b35f55"
+            "size": 1115052,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/modmenu-17.0.0-beta.2.jar",
+            "MD5": "876eca2ec6fa50d36b4bd9320ec680a1"
           }
         },
         {
-          "id": "org.embeddedt.modernfix.forge.init:modernfix:5.27.51+mc1.20.1@jar",
-          "name": "ModernFix",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 982465,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/modernfix-forge-5.27.51+mc1.20.1.jar",
-            "MD5": "cbfd7febe91877849117fff48d0b5969"
-          }
-        },
-        {
-          "id": "net.mehvahdjukaar:moonlight:1.20-2.16.34@jar",
-          "name": "Moonlight Library",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1419416,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/moonlight-1.20-2.16.34-forge.jar",
-            "MD5": "f80a05d17e669e9a5f40cf68821601ed"
-          }
-        },
-        {
-          "id": "yalter.mousetweaks:mousetweaks:2.25.1@jar",
+          "id": "yalter.mousetweaks:mousetweaks:2.30@jar",
           "name": "Mouse Tweaks",
-          "type": "ForgeMod",
+          "type": "FabricMod",
           "artifact": {
-            "size": 76237,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
-            "MD5": "ce4b5bbb9ef6a7905c458ab599ef4cb2"
+            "size": 75618,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/MouseTweaks-fabric-mc1.21.11-2.30.jar",
+            "MD5": "44f747eddb6318544459f02bfbebf752"
           }
         },
         {
-          "id": "com.nosiphus.furniture:nfm:2025.09.20a@jar",
-          "name": "Nosiphus Furniture Mod",
-          "type": "ForgeMod",
+          "id": "net.majo24:naturally_trimmed:3.1.2@jar",
+          "name": "Naturally Trimmed",
+          "type": "FabricMod",
           "artifact": {
-            "size": 2337892,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/nfm-2025.09.20a-1.20.1.jar",
-            "MD5": "4619b4680685ee703aebdfe822276e83"
+            "size": 109637,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/naturally_trimmed-3.1.2+1.21.11-fabric.jar",
+            "MD5": "bff52276ccb3e442059a06e12042fa6a"
           }
         },
         {
-          "id": "it.hurts.octostudios:nerb:0.4.1@jar",
-          "name": "Not Enough Recipe Book",
-          "type": "ForgeMod",
+          "id": "net.jmb19905:niftycarts:21.11.0@jar",
+          "name": "NiftyCarts",
+          "type": "FabricMod",
           "artifact": {
-            "size": 21667,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/Not%20Enough%20Recipe%20Book-FORGE-0.4.1+1.20.1.jar",
-            "MD5": "fa8240906f36683f66de537b34587643"
+            "size": 637979,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/niftycarts-21.11.0.jar",
+            "MD5": "66276ccc3bf7635fef268fa8eaad5194"
           }
         },
         {
-          "id": "it.hurts.octostudios:octolib:0.5.0.1@jar",
-          "name": "OctoLib",
-          "type": "ForgeMod",
+          "id": "dev.tr7zw:notenoughanimations:1.11.1@jar",
+          "name": "NotEnoughAnimations",
+          "type": "FabricMod",
           "artifact": {
-            "size": 424035,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/OctoLib-FORGE-0.5.0.1+1.20.1.jar",
-            "MD5": "6b2fd012966b13a96ce4f68ae42eab8c"
+            "size": 1932106,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/notenoughanimations-fabric-1.11.1-mc1.21.11.jar",
+            "MD5": "ab0f3b64ebd709dc927a51e1fcaae73c"
           }
         },
         {
-          "id": "net.irisshaders.iris:oculus:1.8.0@jar",
-          "name": "Oculus",
-          "type": "ForgeMod",
+          "id": "opekope2.optigui:optigui:2.3.0-beta.9+1.21.9@jar",
+          "name": "OptiGUI",
+          "type": "FabricMod",
           "artifact": {
-            "size": 2851119,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/oculus-mc1.20.1-1.8.0.jar",
-            "MD5": "1dd891634ac21591b5a692471f112572"
+            "size": 611520,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/optigui-2.3.0-beta.9+1.21.9.jar",
+            "MD5": "8f3f022f67077cc4051459293eab6a58"
           }
         },
         {
-          "id": "net.darkhax:openloader:19.0.5@jar",
-          "name": "OpenLoader",
-          "type": "ForgeMod",
+          "id": "generated.fabricmod:packed_packs:2.0.3+1.21.11-patch.1@jar",
+          "name": "Packed Packs",
+          "type": "FabricMod",
           "artifact": {
-            "size": 23937,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/OpenLoader-Forge-1.20.1-19.0.5.jar",
-            "MD5": "2aea0c0fba23c4e9e3d387c6aeefdb62"
+            "size": 559746,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/packed_packs-fabric-2.0.3+1.21.11-patch.1.jar",
+            "MD5": "f0b6d83facd2c89b47bd4fa800639ed2"
           }
         },
         {
-          "id": "vazkii.patchouli:patchouli:1.20.1-85-FORGE@jar",
-          "name": "Patchouli",
-          "type": "ForgeMod",
+          "id": "de.dafuqs:paginatedadvancements:2.8.0+1.21.11@jar",
+          "name": "Paginated Advancements",
+          "type": "FabricMod",
           "artifact": {
-            "size": 642732,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/Patchouli-1.20.1-85-FORGE.jar",
-            "MD5": "78bd223d069fa9491e940d99a8f426b3"
+            "size": 80039,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/paginatedadvancements-2.8.0+1.21.11.jar",
+            "MD5": "b74223b6cc870abcfcd712a0b70c1da0"
           }
         },
         {
-          "id": "net.roguelogix:phosphophyllite:0.7.0-alpha.0.2@jar",
-          "name": "Phosphophyllite",
-          "type": "ForgeMod",
+          "id": "net.lopymine.pe.entrypoint:particle_effects:1.2.0+1.21.11+fabric@jar",
+          "name": "Particle Effects",
+          "type": "FabricMod",
           "artifact": {
-            "size": 455071,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/phosphophyllite-1.20.1-0.7.0-alpha.0.2.jar",
-            "MD5": "0a5dfc2296fb36d790163e6f1e32d672"
+            "size": 299299,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/ParticleEffects-1.2.0+1.21.11+fabric.jar",
+            "MD5": "f84c9567d5205317251f4c31288f62f6"
           }
         },
         {
-          "id": "dev.shadowsoffire:placebo:8.6.3@jar",
-          "name": "Placebo",
-          "type": "ForgeMod",
+          "id": "pigcart.particlerain.loaders:particlerain:4.0.0-beta.5@jar",
+          "name": "Particle Rain",
+          "type": "FabricMod",
           "artifact": {
-            "size": 282474,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/Placebo-1.20.1-8.6.3.jar",
-            "MD5": "13133ab9989e8474931cd7a86bd19cc5"
+            "size": 595706,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/particlerain-4.0.0-beta.5+1.21.11-fabric.jar",
+            "MD5": "dbd4d44f862329dcece7ab5a93c45615"
           }
         },
         {
-          "id": "me.desht:pneumaticcraft:6.0.22+mc1.20.1@jar",
-          "name": "PneumaticCraft: Repressurized",
-          "type": "ForgeMod",
+          "id": "me.roundaround:pickupnotifications:2.0.0@jar",
+          "name": "Pickup Notifications",
+          "type": "FabricMod",
           "artifact": {
-            "size": 10790482,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/pneumaticcraft-repressurized-6.0.22+mc1.20.1.jar",
-            "MD5": "4806175f379220c76445596ea1bfbb94"
+            "size": 920589,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/pickupnotifications-2.0.0+1.21.11.jar",
+            "MD5": "05e24559c337865bf059f0e7686a1fb3"
           }
         },
         {
-          "id": "com.illusivesoulworks:polymorph:0.49.10+1.20.1@jar",
-          "name": "Polymorph",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 299601,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/polymorph-forge-0.49.10+1.20.1.jar",
-            "MD5": "8e93675b33a89243d27f272f84e88338"
-          }
-        },
-        {
-          "id": "com.prunoideae:powerfuljs:1.6.1@jar",
-          "name": "PowerfulJS",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 731791,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/powerfuljs-1.6.1.jar",
-            "MD5": "33494b3bcaf7f2bd53ee74e341eade25"
-          }
-        },
-        {
-          "id": "mrtjp.projectred.core:projectred_core:4.21.0@jar",
-          "name": "ProjectRed Core",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 806997,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/ProjectRed-1.20.1-4.21.0-core.jar",
-            "MD5": "3ad04d9bea9bdd9252352bab1bdb71a2"
-          }
-        },
-        {
-          "id": "mrtjp.projectred.integration:projectred_integration:4.21.0@jar",
-          "name": "ProjectRed Integration",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 3539788,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/ProjectRed-1.20.1-4.21.0-integration.jar",
-            "MD5": "29ea203471f019c2d269e6145a244f61"
-          }
-        },
-        {
-          "id": "mrtjp.projectred.transmission:projectred_transmission:4.21.0@jar",
-          "name": "ProjectRed Transmission",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 461444,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/ProjectRed-1.20.1-4.21.0-transmission.jar",
-            "MD5": "f4d60027f53e5a7362cd1e56b8f41d08"
-          }
-        },
-        {
-          "id": "fuzs.puzzleslib.impl:puzzleslib:8.1.33@jar",
+          "id": "fuzs.puzzleslib.fabric.impl:puzzleslib:21.11.6@jar",
           "name": "Puzzles Lib",
-          "type": "ForgeMod",
+          "type": "FabricMod",
           "artifact": {
-            "size": 1342987,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
-            "MD5": "19f23e3040eaadc7c30ae38f5a3dec68"
+            "size": 1060802,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/PuzzlesLib-v21.11.6-mc1.21.11-Fabric.jar",
+            "MD5": "6ee1d7284216f24aed7c8a543a6e11e6"
           }
         },
         {
-          "id": "org.violetmoon.quark.base:quark:4.0-462@jar",
-          "name": "Quark",
-          "type": "ForgeMod",
+          "id": "generated.fabricmod:reeses-sodium-options:2.0.2+mc1.21.11@jar",
+          "name": "Reese's Sodium Options",
+          "type": "FabricMod",
           "artifact": {
-            "size": 14935230,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/Quark-4.0-462.jar",
-            "MD5": "6eef0d0ac52df0c239cb443abc137f3d"
+            "size": 87207,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/reeses-sodium-options-fabric-2.0.2+mc1.21.11.jar",
+            "MD5": "a964ca79ed35ee285016bdc0c3f9cd09"
           }
         },
         {
-          "id": "net.roguelogix:quartz:0.2.0-alpha.0.1@jar",
-          "name": "Quartz",
-          "type": "ForgeMod",
+          "id": "io.gitlab.jfronny.respackopts.platform:respackopts:4.14.1@jar",
+          "name": "Resource Pack Options",
+          "type": "FabricMod",
           "artifact": {
-            "size": 242702,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/quartz-1.20.1-0.2.0-alpha.0.1.jar",
-            "MD5": "362e72528046cd6d68c341051295c62f"
+            "size": 562880,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/respackopts-4.14.1.jar",
+            "MD5": "1b28a56e9851358b9b3d1276def0c8fc"
           }
         },
         {
-          "id": "com.mrcrayfish.furniture.refurbished:refurbished_furniture:1.0.20@jar",
-          "name": "MrCrayfish's Furniture Mod: Refurbished",
-          "type": "ForgeMod",
+          "id": "io.github.jamalam360:rightclickharvest:4.6.0+1.21.11@jar",
+          "name": "Right Click Harvest",
+          "type": "FabricMod",
           "artifact": {
-            "size": 6689588,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/refurbished_furniture-forge-1.20.1-1.0.20.jar",
-            "MD5": "53bf35be2dc746e3fd7805a4e63a46a6"
+            "size": 287523,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/rightclickharvest-fabric-4.6.0+1.21.11.jar",
+            "MD5": "828cc273afe08de3a45150f7d1d7d229"
           }
         },
         {
-          "id": "com.teamresourceful:resourcefulconfig:2.1.3@jar",
-          "name": "Resourcefulconfig",
-          "type": "ForgeMod",
+          "id": "io.github.mortuusars:scholar:1.1.12@jar",
+          "name": "Scholar",
+          "type": "FabricMod",
           "artifact": {
-            "size": 136923,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/resourcefulconfig-forge-1.20.1-2.1.3.jar",
-            "MD5": "947463b04c043937cd24506842f737a3"
+            "size": 530557,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/scholar-fabric-1.21.11-1.1.12.jar",
+            "MD5": "c7d1a6d2af270e6972e9d4c771191175"
           }
         },
         {
-          "id": "com.teamresourceful:resourcefullib:2.1.29@jar",
-          "name": "Resourceful Lib",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 432753,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/resourcefullib-forge-1.20.1-2.1.29.jar",
-            "MD5": "a040c6cc86f653fddf280ff3af9068f0"
-          }
-        },
-        {
-          "id": "dev.latvian.mods.rhino.mod:rhino:2001.2.3-build.10@jar",
-          "name": "Rhino",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1798244,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/rhino-forge-2001.2.3-build.10.jar",
-            "MD5": "59387620b0ef6becbff02c7c1636ad3e"
-          }
-        },
-        {
-          "id": "net.pawjwp:scarcity:1.1.5@jar",
-          "name": "Scarcity",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 125360,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/scarcity-1.1.5.jar",
-            "MD5": "1f11495b1d85b103f402bf4052aed6f6"
-          }
-        },
-        {
-          "id": "com.blamejared:searchables:1.0.3@jar",
+          "id": "generated.fabricmod:searchables:1.0.2@jar",
           "name": "Searchables",
-          "type": "ForgeMod",
+          "type": "FabricMod",
           "artifact": {
-            "size": 77732,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/Searchables-forge-1.20.1-1.0.3.jar",
-            "MD5": "9f5418e9c08c18a375ef42fada4bcef2"
+            "size": 79795,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/Searchables-fabric-1.21.11-1.0.2.jar",
+            "MD5": "fd66cb4ff55a95d2db60dacfb1d25e49"
           }
         },
         {
-          "id": "tomson124.simplyjetpacks:simplyjetpacks:1.20.1-2.11.0.1@jar",
-          "name": "Simply Jetpacks 2",
-          "type": "ForgeMod",
+          "id": "com.bizcub.simpleDatapacks.platforms:simple_datapacks:2.3@jar",
+          "name": "Simple Datapacks",
+          "type": "FabricMod",
           "artifact": {
-            "size": 620680,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/SimplyJetpacks2-1.20.1-2.11.0.1.jar",
-            "MD5": "d3b58dd09ff8122bec6b0b22ce7d0d6e"
+            "size": 18271,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/simple-datapacks-fabric-2.3+1.21.9.jar",
+            "MD5": "9794fde5baa0edd02e0f052ff18b5bce"
           }
         },
         {
-          "id": "com.flanks255:simplylight:1.20.1-1.4.6-build.50@jar",
-          "name": "Simply Light",
-          "type": "ForgeMod",
+          "id": "dev.tr7zw.skinlayers:skinlayers3d:1.10.1@jar",
+          "name": "3d-Skin-Layers",
+          "type": "FabricMod",
           "artifact": {
-            "size": 555625,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/simplylight-1.20.1-1.4.6-build.50.jar",
-            "MD5": "ce3cb1633a11c82613b547dff686aee8"
+            "size": 1964166,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/skinlayers3d-fabric-1.10.1-mc1.21.11.jar",
+            "MD5": "e43500287a9ae99a80ffb375af5dd2ca"
           }
         },
         {
-          "id": "com.possible_triangle:sliceanddice:3.6.0@jar",
-          "name": "Create Slice & Dice",
-          "type": "ForgeMod",
+          "id": "generated.fabricmod:sodium-extra:0.8.3+mc1.21.11@jar",
+          "name": "Sodium Extra",
+          "type": "FabricMod",
           "artifact": {
-            "size": 588268,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/sliceanddice-forge-3.6.0.jar",
-            "MD5": "d32f1794294f473f0a63296cac72802d"
+            "size": 394219,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/sodium-extra-fabric-0.8.3+mc1.21.11.jar",
+            "MD5": "6d9e005c52ed09fe681330408f05815c"
           }
         },
         {
-          "id": "net.p3pp3rf1y:sophisticatedbackpacks:3.24.57.1908@jar",
-          "name": "Sophisticated Backpacks",
-          "type": "ForgeMod",
+          "id": "net.caffeinemc.mods:sodium:0.8.7+mc1.21.11@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
           "artifact": {
-            "size": 1129266,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/sophisticatedbackpacks-1.20.1-3.24.57.1908.jar",
-            "MD5": "a06ac129dcb6dd477e30efc13b583b16"
+            "size": 1870358,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/sodium-fabric-0.8.7+mc1.21.11.jar",
+            "MD5": "be9eef883db31e21e422aed7262df919"
           }
         },
         {
-          "id": "net.p3pp3rf1y:sophisticatedbackpackscreateintegration:0.1.7.112@jar",
-          "name": "Sophisticated Backpacks Create Integration",
-          "type": "ForgeMod",
+          "id": "rynnavinx.sspb:sspb:6.0.0@jar",
+          "name": "Sodium Shadowy Path Blocks",
+          "type": "FabricMod",
           "artifact": {
-            "size": 86707,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/sophisticatedbackpackscreateintegration-1.20.1-0.1.7.112.jar",
-            "MD5": "754d048ef0b6e42561ba8dea89ed5bab"
+            "size": 63459,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/sodium-shadowy-path-blocks-fabric-6.0.0.jar",
+            "MD5": "169621fbf2990a068477c62bcfa1dfb7"
           }
         },
         {
-          "id": "net.p3pp3rf1y:sophisticatedcore:1.3.54.2027@jar",
-          "name": "Sophisticated Core",
-          "type": "ForgeMod",
+          "id": "io.github.a5b84.statuseffectbars:status-effect-bars:1.0.10@jar",
+          "name": "Status Effect Bars",
+          "type": "FabricMod",
           "artifact": {
-            "size": 1606209,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/sophisticatedcore-1.20.1-1.3.54.2027.jar",
-            "MD5": "f78ca039b00eeea2235186787b9682c5"
+            "size": 47761,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/status-effect-bars-1.0.10.jar",
+            "MD5": "1986b57a54a543be513faee5bb2ec796"
           }
         },
         {
-          "id": "net.p3pp3rf1y:sophisticatedstorage:1.4.57.1848@jar",
-          "name": "Sophisticated Storage",
-          "type": "ForgeMod",
+          "id": "com.thecsdev.commonmc:tcdcommons:5.0.0-beta.1+fabric-1.21.11@jar",
+          "name": "TCDCommons API",
+          "type": "FabricMod",
           "artifact": {
-            "size": 1706676,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/sophisticatedstorage-1.20.1-1.4.57.1848.jar",
-            "MD5": "d19d95fa7c99dc074b7fb3eda82c8f48"
+            "size": 391499,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/tcdcommons-5.0.0-beta.1+fabric-1.21.11.jar",
+            "MD5": "870be732c0623388ba6bdee5ea117eef"
           }
         },
         {
-          "id": "net.p3pp3rf1y:sophisticatedstoragecreateintegration:0.1.20.164@jar",
-          "name": "Sophisticated Storage Create Integration",
-          "type": "ForgeMod",
+          "id": "com.tiviacz:travelersbackpack:10.11.10@jar",
+          "name": "Traveler's Backpack",
+          "type": "FabricMod",
           "artifact": {
-            "size": 129252,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/sophisticatedstoragecreateintegration-1.20.1-0.1.20.164.jar",
-            "MD5": "021ab1d2a8c42aade04134cffea61247"
+            "size": 1596936,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/travelersbackpack-fabric-1.21.11-10.11.10.jar",
+            "MD5": "9c29d41dd25448cda5bb2b4f75668ead"
           }
         },
         {
-          "id": "fathertoast.specialmobs.common.core:specialmobs:1.20.1-4.1.25@jar",
-          "name": "Special Mobs",
-          "type": "ForgeMod",
+          "id": "fi.dy.masa:tweakeroo:0.27.12@jar",
+          "name": "Tweakeroo",
+          "type": "FabricMod",
           "artifact": {
-            "size": 2468427,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/specialmobs-1.20.1-4.1.25.jar",
-            "MD5": "17af940bde029dfc2d69d22334e9d5a9"
+            "size": 674585,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/tweakeroo-fabric-1.21.11-0.27.12.jar",
+            "MD5": "a38463837fe454d5e814dedc10229500"
           }
         },
         {
-          "id": "com.natamus:starterstructure:4.2@jar",
-          "name": "Starter Structure",
-          "type": "ForgeMod",
+          "id": "de.miraculixx.veinminerClient:veinminer_client:2.11.2@jar",
+          "name": "Veinminer Client",
+          "type": "FabricMod",
           "artifact": {
-            "size": 57396,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/starterstructure-1.20.1-4.2.jar",
-            "MD5": "2782f59cb45b2a3dd18ef39197df451d"
+            "size": 197724,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/veinminer-client-fabric-2.11.2+1.21.11.jar",
+            "MD5": "9182633bcba0f55e887e1b24a610ba4b"
           }
         },
         {
-          "id": "ca.teamdman:sfm:4.32.0@jar",
-          "name": "Super Factory Manager (SFM)",
-          "type": "ForgeMod",
+          "id": "de.miraculixx:veinminer:2.11.2@jar",
+          "name": "Veinminer",
+          "type": "FabricMod",
           "artifact": {
-            "size": 1627788,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/Super%20Factory%20Manager%20(SFM)-MC1.20.1-4.32.0.jar",
-            "MD5": "8f6b71e6f9cf18ed03ea039682a85682"
+            "size": 645863,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/veinminer-fabric-2.11.2+1.21.11.jar",
+            "MD5": "e8df96db31c087fbac3e7c49b839482a"
           }
         },
         {
-          "id": "com.supermartijn642.configlib:supermartijn642configlib:1.1.8@jar",
-          "name": "SuperMartijn642's Config Library",
-          "type": "ForgeMod",
+          "id": "pl.slogerski:waypointsplus:1.0.9@jar",
+          "name": "Waypoints Plus",
+          "type": "FabricMod",
           "artifact": {
-            "size": 206584,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/supermartijn642configlib-1.1.8-forge-mc1.20.jar",
-            "MD5": "cbece61946d4e059e90806c19dd66082"
+            "size": 465942,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/waypoints-plus-mc1.21.11-fabric-1.0.9.jar",
+            "MD5": "ec2c0ca1fc2f73d798d4f899b8d70084"
           }
         },
         {
-          "id": "com.supermartijn642.core:supermartijn642corelib:1.1.21@jar",
-          "name": "SuperMartijn642's Core Lib",
-          "type": "ForgeMod",
+          "id": "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.8.2+1.21.11-fabric@jar",
+          "name": "YetAnotherConfigLib",
+          "type": "FabricMod",
           "artifact": {
-            "size": 554977,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/supermartijn642corelib-1.1.21-forge-mc1.20.1.jar",
-            "MD5": "eb67e7fea407250cfa9fcf897f9b63b9"
+            "size": 1126948,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/yet_another_config_lib_v3-3.8.2+1.21.11-fabric.jar",
+            "MD5": "0de1337147953ff71854bfd4ce874629"
           }
         },
         {
-          "id": "net.pawjwp:sync:0.2.0@jar",
-          "name": "Sync",
-          "type": "ForgeMod",
+          "id": "dev.isxander:zoomify:2.14.6+1.21.11@jar",
+          "name": "Zoomify",
+          "type": "FabricMod",
           "artifact": {
-            "size": 600678,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/Sync-0.2.1.jar",
-            "MD5": "1ff4bb9f4a1b43aa8326804893d40935"
-          }
-        },
-        {
-          "id": "jagm.tagtooltips:tagtooltips:1.1.0@jar",
-          "name": "Tag Tooltips",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 8379,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/tagtooltips-forge-1.20.1-1.1.0.jar",
-            "MD5": "55971bb38a4bf1f582c73c0170789b15"
-          }
-        },
-        {
-          "id": "com.xinian:tconplanner:1.2.0@jar",
-          "name": "Tinker's Planner",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 160849,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/tconplanner-1.20.1-forge-1.7.jar",
-            "MD5": "ac3e04135052484942211fda5aa6014f"
-          }
-        },
-        {
-          "id": "slimeknights.tconstruct:tconstruct:3.11.2.166@jar",
-          "name": "Tinkers' Construct",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 21572031,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/TConstruct-1.20.1-3.11.2.166.jar",
-            "MD5": "812aad66dfecc0832ea4569cd3b1de5a"
-          }
-        },
-        {
-          "id": "cofh.thermal.dynamics:thermal_dynamics:11.0.1@jar",
-          "name": "Thermal Dynamics",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 622948,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/thermal_dynamics-1.20.1-11.0.1.23.jar",
-            "MD5": "2818f087d5d862c7e9e03d69f18d9a06"
-          }
-        },
-        {
-          "id": "cofh.thermal.expansion:thermal_expansion:11.0.1@jar",
-          "name": "Thermal Expansion",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 574141,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/thermal_expansion-1.20.1-11.0.1.29.jar",
-            "MD5": "468d64ba6d6753587687b54573d57d73"
-          }
-        },
-        {
-          "id": "cofh.thermal.foundation:thermal_foundation:11.0.6@jar",
-          "name": "Thermal Foundation",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 4549423,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/thermal_foundation-1.20.1-11.0.6.70.jar",
-            "MD5": "00cf83270e22559998cc82cfe48579d7"
-          }
-        },
-        {
-          "id": "cofh.thermal.innovation:thermal_innovation:11.0.1@jar",
-          "name": "Thermal Innovation",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 225344,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/thermal_innovation-1.20.1-11.0.1.23.jar",
-            "MD5": "996ae2825dc7cba004a0930ae81f615f"
-          }
-        },
-        {
-          "id": "cofh.thermal.integration:thermal_integration:11.0.1@jar",
-          "name": "Thermal Integration",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 333350,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/thermal_integration-1.20.1-11.0.1.27.jar",
-            "MD5": "98bfcf959cfce5128745141e1fa9291d"
-          }
-        },
-        {
-          "id": "dev.ghen:thirst:1.20.1-1.4.0@jar",
-          "name": "Thirst was Taken",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 220762,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/ThirstWasTaken-1.20.1-1.4.0.jar",
-            "MD5": "4b866b53707ea00de16b57eada8f9b69"
-          }
-        },
-        {
-          "id": "com.unixkitty:timecontrol:1.6.0@jar",
-          "name": "TimeControl",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 137147,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/timecontrol-1.20.1-1.6.0.jar",
-            "MD5": "4702a1dd935591ccbfabe81b33b601a8"
-          }
-        },
-        {
-          "id": "net.darkhax:tipsmod:12.1.9@jar",
-          "name": "Tips",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 127186,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/Tips-Forge-1.20.1-12.1.9.jar",
-            "MD5": "b447605e76fade36276ce28b5ef0e332"
-          }
-        },
-        {
-          "id": "com.hrznstudio:titanium:3.8.34@jar",
-          "name": "Titanium",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 622073,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/titanium-1.20.1-3.8.34.jar",
-            "MD5": "fe0df2d7d80e3ca4d21e5fa74195eb2f"
-          }
-        },
-        {
-          "id": "net.redfox:tleveling:1.1.1-1.20.1@jar",
-          "name": "Tinker's Tool Leveling",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 105905,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/tleveling-1.1.1-1.20.1.jar",
-            "MD5": "d0001be072a501284f3276dda5aec594"
-          }
-        },
-        {
-          "id": "net.xalcon:torchmaster:20.1.9@jar",
-          "name": "Torchmaster",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 119348,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/torchmaster-20.1.9.jar",
-            "MD5": "5ccfbdd3ad8436df3b99967e746ac2cd"
-          }
-        },
-        {
-          "id": "net.pawjwp:varkin_system:0.1.0@jar",
-          "name": "Varkin System",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1015223,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/varkin_system-0.1.0.jar",
-            "MD5": "aecebdc3b1599623d6d8d26d6376d167"
-          }
-        },
-        {
-          "id": "com.sk89q:worldedit:7.2.15+6463-5ca4dff@jar",
-          "name": "WorldEdit",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 5825402,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/worldedit-mod-7.2.15.jar",
-            "MD5": "bd0e7cff7896348faab92e43300d0639"
-          }
-        },
-        {
-          "id": "org.violetmoon.zetaimplforge.mod:zeta:1.0-31@jar",
-          "name": "Zeta",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1006518,
-            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/DesolatePlanet-1.20.1/forgemods/required/Zeta-1.0-31.jar",
-            "MD5": "98b72e20dacbdb4da4bd187f56ed4012"
+            "size": 1870555,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/VoidHardcoreServer-1.21.11/fabricmods/required/Zoomify-2.14.6+1.21.11.jar",
+            "MD5": "5644d8b7b5ab70aa5b1187b36b08b9d5"
           }
         }
       ]

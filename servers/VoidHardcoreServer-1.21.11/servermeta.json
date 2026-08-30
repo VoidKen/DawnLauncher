@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///C:/Users/mojoh/Documents/Dawn/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "VoidHardcoreServer (Minecraft 1.21.11)",
+    "description": "VoidHardcoreServer Running Minecraft 1.21.11 (Fabric v0.19.5)",
+    "icon": "",
+    "address": "voidserver.kinetic.host",
+    "discord": {
+      "shortId": "VoidsHardcore",
+      "largeImageText": "VoidsHardCoreSevrer",
+      "largeImageKey": "voidshardcore"
+    },
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "fabric": {
+    "version": "0.19.5"
+  },
+  "untrackedFiles": []
+}

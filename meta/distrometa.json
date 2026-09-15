@@ -1,0 +1,11 @@
+{
+  "$schema": "file:///C:/Users/mojoh/Documents/Dawn/schemas/DistroMetaSchema.schema.json",
+  "meta": {
+    "rss": "",
+    "discord": {
+      "clientId": "1537791651110715414",
+      "smallImageText": "DawnServer",
+      "smallImageKey": "sealcircle"
+    }
+  }
+}

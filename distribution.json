@@ -1,0 +1,1201 @@
+{
+  "version": "1.0.0",
+  "rss": "",
+  "discord": {
+    "clientId": "1537791651110715414",
+    "smallImageText": "DawnServer",
+    "smallImageKey": "sealcircle"
+  },
+  "servers": [
+    {
+      "id": "Blightfall-1.7.10",
+      "name": "Blightfall (Minecraft 1.7.10)",
+      "description": "Blightfall Running Minecraft 1.7.10 (Forge v10.13.4.1614)",
+      "icon": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/VoidVerseLogo.png",
+      "version": "1.0.0",
+      "address": "voidserver.kinetic.host",
+      "minecraftVersion": "1.7.10",
+      "discord": {
+        "shortId": "Blightfall",
+        "largeImageText": "Blightfall",
+        "largeImageKey": "voidshardcore"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.7.10-10.13.4.1614-1.7.10:universal",
+          "name": "Minecraft Forge",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 3018833,
+            "MD5": "add0fba161c4652a96efb4264ec2d9ec",
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/minecraftforge/forge/1.7.10-10.13.4.1614-1.7.10/forge-1.7.10-10.13.4.1614-1.7.10-universal.jar"
+          },
+          "subModules": [
+            {
+              "id": "net.minecraft:launchwrapper:1.12@jar",
+              "name": "Minecraft Forge (launchwrapper)",
+              "type": "Library",
+              "artifact": {
+                "size": 32999,
+                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-all:5.0.3@jar",
+              "name": "Minecraft Forge (asm-all)",
+              "type": "Library",
+              "artifact": {
+                "size": 241639,
+                "MD5": "c5cc4613bbdfba3ccf5f0ab85390d0b8",
+                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar"
+              }
+            },
+            {
+              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
+              "name": "Minecraft Forge (akka-actor_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 2514991,
+                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
+                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
+              }
+            },
+            {
+              "id": "com.typesafe:config:1.2.1@jar",
+              "name": "Minecraft Forge (config)",
+              "type": "Library",
+              "artifact": {
+                "size": 219554,
+                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
+                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar",
+              "name": "Minecraft Forge (scala-actors-migration_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 58018,
+                "MD5": "f5e79398daa1806f8b17311a3c782723",
+                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-compiler:2.11.1@jar",
+              "name": "Minecraft Forge (scala-compiler)",
+              "type": "Library",
+              "artifact": {
+                "size": 13449765,
+                "MD5": "06030143bf86ca896fb6ccfd679b5760",
+                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2@jar",
+              "name": "Minecraft Forge (scala-continuations-library_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 25365,
+                "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
+                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2@jar",
+              "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
+              "type": "Library",
+              "artifact": {
+                "size": 206575,
+                "MD5": "359c4a6743a082c689039482eed78670",
+                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-library:2.11.1@jar",
+              "name": "Minecraft Forge (scala-library)",
+              "type": "Library",
+              "artifact": {
+                "size": 5538130,
+                "MD5": "1d88f665219e6006c5dd82d71c525c0f",
+                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-parser-combinators_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 419701,
+                "MD5": "4e694499c965af4a02599c99d4f0b196",
+                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-reflect:2.11.1@jar",
+              "name": "Minecraft Forge (scala-reflect)",
+              "type": "Library",
+              "artifact": {
+                "size": 4372892,
+                "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
+                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-swing_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 726500,
+                "MD5": "1009d69e4948045383f2a7a334348af5",
+                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar",
+              "name": "Minecraft Forge (scala-xml_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 648679,
+                "MD5": "c2d7e66495afe14545c31b21e99879ef",
+                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
+              }
+            },
+            {
+              "id": "lzma:lzma:0.0.1@jar",
+              "name": "Minecraft Forge (lzma)",
+              "type": "Library",
+              "artifact": {
+                "size": 5762,
+                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
+                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:4.5@jar",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 61311,
+                "MD5": "1372bd4823bb1ef61e7db6724f601150",
+                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/net/sf/jopt-simple/jopt-simple/4.5/jopt-simple-4.5.jar"
+              }
+            },
+            {
+              "id": "com.google.guava:guava:17.0@jar",
+              "name": "Minecraft Forge (guava)",
+              "type": "Library",
+              "artifact": {
+                "size": 2243036,
+                "MD5": "89fef81c2adfa9b50a64ed5cd5d8c155",
+                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/com/google/guava/guava/17.0/guava-17.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.commons:commons-lang3:3.3.2@jar",
+              "name": "Minecraft Forge (commons-lang3)",
+              "type": "Library",
+              "artifact": {
+                "size": 412739,
+                "MD5": "3128bf75a2549ebe38663401191bacab",
+                "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/repo/lib/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "generated.forgemod:StatusEffectHUD:1.27@jar",
+          "name": "StatusEffectHUD",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 24785,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/[1.7.10]StatusEffectHUD-client-1.27.jar",
+            "MD5": "d3b526e884043c01d5b1d23ca88a8cd4"
+          }
+        },
+        {
+          "id": "ru.timeconqueror.spongemixins.core:unimixins:0.1.15@jar",
+          "name": "UniMixins",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5154014,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/+unimixins-all-1.7.10-0.1.15.jar",
+            "MD5": "0db9c73e49730af5b11b110a8e4f19c6"
+          }
+        },
+        {
+          "id": "squeek.applecore:AppleCore:3.2.12@jar",
+          "name": "AppleCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 106127,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/AppleCore-3.2.12.jar",
+            "MD5": "7d24f19c0b02b104f56d2a73b53d1a1c"
+          }
+        },
+        {
+          "id": "appeng.transformer:appliedenergistics2:rv3-beta-291-GTNH@jar",
+          "name": "Applied Energistics 2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3568421,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/appliedenergistics2-rv3-beta-291-GTNH.jar",
+            "MD5": "cdad68337d223e028e695f07e0c874d0"
+          }
+        },
+        {
+          "id": "org.embeddedt.archaicfix:archaicfix:0.7.0@jar",
+          "name": "ArchaicFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 952447,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/archaicfix-0.7.0.jar",
+            "MD5": "fa93bce64d1304f8c397ed94c0304520"
+          }
+        },
+        {
+          "id": "generated.forgemod:archimedesships:1.7.1@jar",
+          "name": "ArchimedesShips",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 245486,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/ArchimedesShips-1.7.1.jar",
+            "MD5": "e81328f9876e69d91a53242be1fc62da"
+          }
+        },
+        {
+          "id": "generated.forgemod:ArmorStatusHUD:1.28@jar",
+          "name": "ArmorStatusHUD",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 27281,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/ArmorStatusHUD-client-1.28.jar",
+            "MD5": "f0da1af3ea5b7797d2742b7a2b874e92"
+          }
+        },
+        {
+          "id": "aroma1997.core:Aroma1997Core:1.0.2.16@jar",
+          "name": "Aroma1997Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 159243,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/Aroma1997Core-1.7.10-1.0.2.16.jar",
+            "MD5": "acadd2e64f5621f0e87f25a02c3dda14"
+          }
+        },
+        {
+          "id": "generated.forgemod:AromaBackup:0.1.0.0@jar",
+          "name": "AromaBackup",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 51332,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/AromaBackup-1.7.10-0.1.0.0.jar",
+            "MD5": "b2ca0e6b37a1f3a0dd7500e57425070d"
+          }
+        },
+        {
+          "id": "generated.forgemod:Automagy:1.7.10-0.28.2@jar",
+          "name": "Automagy",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6567165,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/Automagy-1.7.10-0.28.2.jar",
+            "MD5": "0d1b46683a9c69a59368406b7db4671f"
+          }
+        },
+        {
+          "id": "com.wirsbo.main:betterrain:0.1@jar",
+          "name": "Betterrain",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2485,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/betterrain-1.7.2-1.7.10_0.15-core.jar",
+            "MD5": "1ce09bf3b3ebb66d14ab3a84251f99fe"
+          }
+        },
+        {
+          "id": "generated.forgemod:betterrain:0.132@jar",
+          "name": "Better Rain",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3325004,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/betterrain-1.7.2-1.7.10_0.15.jar",
+            "MD5": "10ad9310fbbf2456ae498f259298816b"
+          }
+        },
+        {
+          "id": "generated.forgemod:betterstorage:1.7.10-0.13.1.126-nosplode@jar",
+          "name": "BetterStorage",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 702255,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/BetterStorage-1.7.10-0.13.1.126-nosplode.jar",
+            "MD5": "b06518f73180ec8b321aaf5fd702c7b1"
+          }
+        },
+        {
+          "id": "generated.forgemod:BiblioCraft:1.11.7@jar",
+          "name": "BiblioCraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5452316,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/BiblioCraft[v1.11.7][MC1.7.10].jar",
+            "MD5": "ff5aca99f8e04a8bb6077df853a9c72e"
+          }
+        },
+        {
+          "id": "generated.forgemod:BiblioWoodsNatura:1.4@jar",
+          "name": "BiblioWoods Natura Edition",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 216638,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/BiblioWoods[Natura][v1.4].jar",
+            "MD5": "7906bf471a8c1c69679dd51e8b080d33"
+          }
+        },
+        {
+          "id": "generated.forgemod:BigReactors:0.4.3A@jar",
+          "name": "Big Reactors",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 771107,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/BigReactors-0.4.3A.jar",
+            "MD5": "b1c71b6a64a84f154af2d83bdc0d33bf"
+          }
+        },
+        {
+          "id": "generated.forgemod:blightbuster:2.1.0-RC2@jar",
+          "name": "BlightBuster",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3923815,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/blightbuster-2.1.0-RC2.jar",
+            "MD5": "25b7d35560ffc3d401b1853251e6deb9"
+          }
+        },
+        {
+          "id": "net.technicpack.blightcore:blightcore:1.4.0@jar",
+          "name": "Blight Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14622,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/blightcore-1.4.0.jar",
+            "MD5": "41597999f90a2c6a049c006d383c3d17"
+          }
+        },
+        {
+          "id": "generated.forgemod:blightfallfilefix:1.0.2@jar",
+          "name": "BlightfallFileFixer",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 193157,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/blightfall-filefix-1.0.2.jar",
+            "MD5": "b4716985143b5ed0d1a300d71af566a6"
+          }
+        },
+        {
+          "id": "generated.forgemod:AWWayofTime:1.7.10-1.3.6-blight-41@jar",
+          "name": "Blood Magic: Alchemical Wizardry",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9224539,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/BloodMagic-1.7.10-1.3.6-blight.jar",
+            "MD5": "22cbaa96c4707eeacb032f88a7705901"
+          }
+        },
+        {
+          "id": "generated.forgemod:Botania:r1.7-208@jar",
+          "name": "Botania",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14944040,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/Botania+r1.7-208.jar",
+            "MD5": "fb2f3f015db61ec0d108ea8a198c10da"
+          }
+        },
+        {
+          "id": "generated.forgemod:chickenchunks:1.7.10-1.3.4.19-universal@jar",
+          "name": "ChickenChunks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 106701,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/ChickenChunks-1.7.10-1.3.4.19-universal.jar",
+            "MD5": "5592eda79bd2b52adf1d4bdceaa59b73"
+          }
+        },
+        {
+          "id": "generated.forgemod:chisel:1.5.7@jar",
+          "name": "Chisel",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2238482,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/Chisel-1.7.10-1.5.7.jar",
+            "MD5": "8fd9c91d68256d1575d05fa31736e340"
+          }
+        },
+        {
+          "id": "codechicken.core.asm:CodeChickenCore:1.1.13@jar",
+          "name": "CodeChicken Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 146295,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/CodeChickenCore-1.1.13.jar",
+            "MD5": "444eabe93a8392d1e66ba4f29643bf04"
+          }
+        },
+        {
+          "id": "cofh.asm:CoFHCore:3.1.4@jar",
+          "name": "CoFH Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1230511,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/CoFHCore-[1.7.10]3.1.4-329.jar",
+            "MD5": "de527c101a1f2c62203f99515f3d0957"
+          }
+        },
+        {
+          "id": "generated.forgemod:controlling:1.7.10-1.0.0.4@jar",
+          "name": "Controlling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 30090,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/Controlling-1.7.10-1.0.0.4.jar",
+            "MD5": "7d8177b009d4a4e4d8c6e425dafec43b"
+          }
+        },
+        {
+          "id": "generated.forgemod:cookingforblockheads:1.2.16-GTNH@jar",
+          "name": "Cooking For Blockheads",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 368100,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/CookingForBlockheads-1.2.16-GTNH.jar",
+            "MD5": "857a373472c4239f37d74dc4d3c1f379"
+          }
+        },
+        {
+          "id": "makamys.coretweaks:coretweaks:0.3.3.2+nomixin@jar",
+          "name": "CoreTweaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1223393,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/CoreTweaks-1.7.10-0.3.3.2+nomixin.jar",
+            "MD5": "ae8578853f54db3cbec4401f0df3aac8"
+          }
+        },
+        {
+          "id": "generated.forgemod:customnpcs:1.7.10@jar",
+          "name": "CustomNpcs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8806738,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/CustomNPCs-1.7.10c-herohack3.jar",
+            "MD5": "4ee4f8dfabddaf8789c8925f8b8219d5"
+          }
+        },
+        {
+          "id": "generated.forgemod:enderstorage:1.4.13@jar",
+          "name": "EnderStorage",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 146243,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/EnderStorage-1.4.13.jar",
+            "MD5": "6011a01ad61de64ea6e6a87ece020608"
+          }
+        },
+        {
+          "id": "generated.forgemod:extracells:2.5.34@jar",
+          "name": "Extra Cells",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1234405,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/ExtraCells-2.5.34.jar",
+            "MD5": "bc048eb6ec59d0d359d13a101f35ad7b"
+          }
+        },
+        {
+          "id": "generated.forgemod:ExtraTiC:1.4.6@jar",
+          "name": "ExtraTiC",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 11557124,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/ExtraTiC-1.7.10-1.4.6.jar",
+            "MD5": "e66dc4b8d6164e75615dfabf1f8dc5a4"
+          }
+        },
+        {
+          "id": "generated.forgemod:ExtraUtilities:1.2.12@jar",
+          "name": "Extra Utilities",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2149827,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/extrautilities-1.2.12.jar",
+            "MD5": "0b1848ece3f6e1370e6caa8124c1480d"
+          }
+        },
+        {
+          "id": "generated.forgemod:extrautilitiestweaks:1.0.0@jar",
+          "name": "ExtraUtilitiesTweaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3897,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/ExtraUtilitiesTweaks-1.0.0.jar",
+            "MD5": "2c3883cfbd375fc6456c383fec12c0dd"
+          }
+        },
+        {
+          "id": "pl.asie.foamfix.coremod:foamfix:1.0.1@jar",
+          "name": "FoamFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 314523,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/FoamFix-1.7.10-universal-1.0.2.jar",
+            "MD5": "2e85b939b3bb01b585bd7f9442fe2da2"
+          }
+        },
+        {
+          "id": "generated.forgemod:ForbiddenMagic:1.7.10-0.575@jar",
+          "name": "Forbidden Magic",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 647020,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/Forbidden%20Magic-1.7.10-0.575.jar",
+            "MD5": "8572280652bb3c84da2915570021f42d"
+          }
+        },
+        {
+          "id": "codechicken.core.launch:ForgeMultipart:1.2.0.345@jar",
+          "name": "Forge Multipart",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 943474,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/ForgeMultipart-1.7.10-1.2.0.345-universal.jar",
+            "MD5": "3bc13e5ff47b84960f24343e209345c8"
+          }
+        },
+        {
+          "id": "generated.forgemod:HardcoreQuesting:4.4.5-blight@jar",
+          "name": "Hardcore Questing Mode",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1133128,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/HardcoreQuesting-4.4.5-blight.jar",
+            "MD5": "ae0d6dd5f44cabc627a9aefe1a305e21"
+          }
+        },
+        {
+          "id": "generated.forgemod:HelpFixer:1.0.7@jar",
+          "name": "HelpFixer",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6552,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/HelpFixer-1.0.7.jar",
+            "MD5": "0d6ce4776f981f97a13ab02029b5fb4d"
+          }
+        },
+        {
+          "id": "generated.forgemod:HungerOverhaul:1.0.0.DEV.c9b8cee@jar",
+          "name": "Hunger Overhaul",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 187060,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/HungerOverhaul-1.7.10-1.0.0-ConfigHack-2.jar",
+            "MD5": "d157052408478ca19cf302e09255d51d"
+          }
+        },
+        {
+          "id": "generated.forgemod:IguanaTweaksTConstruct:2.1.6@jar",
+          "name": "Iguana Tinker Tweaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 427425,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/IguanaTinkerTweaks-1.7.10-2.1.6.jar",
+            "MD5": "813bbff9847db4d4c4c9aa5702c047d6"
+          }
+        },
+        {
+          "id": "generated.forgemod:ImLookingAtBlood:1.1@jar",
+          "name": "I'm Looking At Blood",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 18332,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/ImLookingAtBlood-1.7.2-1.1a.jar",
+            "MD5": "acf07404201d16b1a5ec1ffd7209feea"
+          }
+        },
+        {
+          "id": "info.inpureprojects.core.preloader:INpurePreLoader:1.0@jar",
+          "name": "INpureCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 126448,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/INpureCore-[1.7.10]1.0.0B9-62.jar",
+            "MD5": "89c7b3835cd2bdba7d8d054d75c7460c"
+          }
+        },
+        {
+          "id": "invtweaks.forge.asm:inventorytweaks:1.58-147-645ca10@jar",
+          "name": "Inventory Tweaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 221921,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/inventorytweaks-1.58-147.jar",
+            "MD5": "c5d9271ea4afb47deae8c71f8bae61a1"
+          }
+        },
+        {
+          "id": "generated.forgemod:jabba:1.2.2_1.7.10@jar",
+          "name": "Jabba",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 445166,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/Jabba-1.2.2_1.7.10.jar",
+            "MD5": "9d35698387f75007c1c4dd0dcfec13e5"
+          }
+        },
+        {
+          "id": "com.mumfrey.liteloader.launch:liteloader:1.7.10_04@jar",
+          "name": "LiteLoader",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 533903,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/liteloader-1.7.10.jar",
+            "MD5": "63ada46e033d0cb6782bada09ad5ca4e"
+          }
+        },
+        {
+          "id": "generated.forgemod:Lockdown:2.0.0@jar",
+          "name": "Lockdown",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8361,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/Lockdown-2.0.0.0.jar",
+            "MD5": "4776c59e88080b0f4b88b79b6c7fa29b"
+          }
+        },
+        {
+          "id": "net.thecondemned.lumyskinpatch:lumyskinpatch:1.0.13@jar",
+          "name": "LumySkinPatch",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 311861,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/LumySkinPatch-1.0.13.jar",
+            "MD5": "46884b6cb579e4cdc819549aac26fd31"
+          }
+        },
+        {
+          "id": "generated.forgemod:LunatriusCore:1.1.2.21@jar",
+          "name": "LunatriusCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 57644,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/LunatriusCore-1.7.10-1.1.2.21-universal.jar",
+            "MD5": "435b2890f90cc256e0045eb559512eaf"
+          }
+        },
+        {
+          "id": "generated.forgemod:Mantle:0.3.2b@jar",
+          "name": "Mantle",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 202458,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/Mantle-1.7.10-0.3.2b.jar",
+            "MD5": "934fe4ef7a9b971f22b5dd53e57fa976"
+          }
+        },
+        {
+          "id": "generated.forgemod:Metallurgy:4.0.9@jar",
+          "name": "Metallurgy 4",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1623994,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/Metallurgy-1.7.10-4.0.9.148.jar",
+            "MD5": "a2d5bae63b4f0c870b333b3849e26de2"
+          }
+        },
+        {
+          "id": "generated.forgemod:MetallurgyCore:4.0.5@jar",
+          "name": "Metallurgy Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 51477,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/MetallurgyCore-1.7.10-4.0.5.30.jar",
+            "MD5": "62e42a5c172b643f66dbca58dc7088bc"
+          }
+        },
+        {
+          "id": "generated.forgemod:MineFactoryReloaded:2.8.1@jar",
+          "name": "MineFactory Reloaded",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1756014,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/MineFactoryReloaded-[1.7.10]2.8.1-174.jar",
+            "MD5": "690ebc0ca27dfbeff2c8111f413e96ad"
+          }
+        },
+        {
+          "id": "generated.forgemod:MineTweaker3:1.7.10-3.0.10@jar",
+          "name": "MineTweaker 3",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 927376,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/MineTweaker3-1.7.10-3.0.10B.jar",
+            "MD5": "884933d1b933e0bd2f93293201569f13"
+          }
+        },
+        {
+          "id": "mcp.mobius.mobiuscore.asm:MobiusCore:1.2.5_1.7.10@jar",
+          "name": "MobiusCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 56432,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/MobiusCore-1.2.5_1.7.10.jar",
+            "MD5": "29990acae6a30d35057380222be87294"
+          }
+        },
+        {
+          "id": "generated.forgemod:mod_voxelmap_1.7.0b_for_1.7.10:0.0.0@jar",
+          "name": "Mod_voxelMap_1.7.0b_for_1.7.10",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 597177,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/mod_voxelMap_1.7.0b_for_1.7.10.litemod",
+            "MD5": "afb07bedb01aa5cebebf9e1b3f9b8d60"
+          }
+        },
+        {
+          "id": "generated.forgemod:modelcitizens:mc1.7.10-1.0.1@jar",
+          "name": "Model Citizens",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 45689,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/ModelCitizens-mc1.7.10-1.0.1.jar",
+            "MD5": "4dd646d8c6a9785bd8fafe51074a9270"
+          }
+        },
+        {
+          "id": "generated.forgemod:modtweaker2:0.9.6@jar",
+          "name": "Mod Tweaker 2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 572698,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/ModTweaker2-0.9.6.jar",
+            "MD5": "157633c119127d9d0112a7b9f8c2c334"
+          }
+        },
+        {
+          "id": "generated.forgemod:MouseTweaks:2.4.4@jar",
+          "name": "Mouse Tweaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 51898,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/MouseTweaks-2.4.4-mc1.7.10.jar",
+            "MD5": "d4968eb0b513066313259fcd80bb8eb0"
+          }
+        },
+        {
+          "id": "generated.forgemod:Natura:1.7.10-DEV.fa91584@jar",
+          "name": "Natura",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 907154,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/natura-1.7.10-2.2.0.4.jar",
+            "MD5": "752b00136b433d1ee2fb12955ae4acc2"
+          }
+        },
+        {
+          "id": "generated.forgemod:NEIAddons:1.12.14.40@jar",
+          "name": "NEI Addons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 101777,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/neiaddons-1.12.14.40-mc1.7.10.jar",
+            "MD5": "cd23917348ec450f022c13c24f196374"
+          }
+        },
+        {
+          "id": "generated.forgemod:NEIPlugins:1.1.0.10-unofficial@jar",
+          "name": "NEI Plugins Unofficial",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 276456,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/NEIPlugins-MC1.7.10-1.1.0.10-unofficial.jar",
+            "MD5": "b347350a38ea51e79034115142eba273"
+          }
+        },
+        {
+          "id": "generated.forgemod:Netherless:0.9.0@jar",
+          "name": "Netherless",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6525,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/netherless-1.0.jar",
+            "MD5": "3ea060d00a75ffeb753b67fa6cb71e97"
+          }
+        },
+        {
+          "id": "generated.forgemod:NetherOres:2.3.1@jar",
+          "name": "Nether Ores",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 79708,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/NetherOres-[1.7.10]2.3.1-22.jar",
+            "MD5": "78980ff5bea5c0de0b0a27edff94225b"
+          }
+        },
+        {
+          "id": "net.technicpack.newradicalbotany:newradicalbotany:1.0.0@jar",
+          "name": "New Radical Botany",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 20889,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/newradicalbotany-1.1.2.jar",
+            "MD5": "2d06959b5512d1dfe608f713bb450657"
+          }
+        },
+        {
+          "id": "codechicken.nei.asm:NotEnoughItems:2.4.13-GTNH@jar",
+          "name": "NotEnoughItems",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 770265,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/NotEnoughItems-2.4.13-GTNH.jar",
+            "MD5": "144c0342e72e42966d000e4e6b7b1d8a"
+          }
+        },
+        {
+          "id": "generated.forgemod:harvestcraft:1.7.10i@jar",
+          "name": "Pam's HarvestCraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2482753,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/Pam's%20HarvestCraft%201.7.10Lb.jar",
+            "MD5": "27115781353d0528f6f1c280e48c7ae1"
+          }
+        },
+        {
+          "id": "lumien.perfectspawn.transformer:PerfectSpawn:1.1@jar",
+          "name": "Perfect Spawn",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 27070,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/PerfectSpawn-1.1.jar",
+            "MD5": "eb2fada9ee62167611a833d3d71d95d3"
+          }
+        },
+        {
+          "id": "api.player:playerapi:1.7.10-1.4@jar",
+          "name": "PlayerAPI",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 282107,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/PlayerAPI-1.7.10-1.4.jar",
+            "MD5": "a86805d3720f12610ae1f28f7eb08b53"
+          }
+        },
+        {
+          "id": "generated.forgemod:purplepanic:1.0.6@jar",
+          "name": "Purple Panic",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5488,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/purplepanic-1.0.6.jar",
+            "MD5": "94ef21d2581f17d4206d22113c61fe06"
+          }
+        },
+        {
+          "id": "generated.forgemod:RedstoneArsenal:1.1.2@jar",
+          "name": "Redstone Arsenal",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 318347,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/RedstoneArsenal-[1.7.10]1.1.2-92.jar",
+            "MD5": "72f8414b856d40b07d6837560f067acc"
+          }
+        },
+        {
+          "id": "generated.forgemod:RAM:1.0.0_1.7.10@jar",
+          "name": "RPG Advanced Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 237390,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/RPGAdvMod-1.0.0_1.7.10.jar",
+            "MD5": "3c4df33d52d556ade11995a580fb3700"
+          }
+        },
+        {
+          "id": "generated.forgemod:Schematica:1.7.5.git@jar",
+          "name": "Schematica",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 226716,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/Schematica-1.7.10-1.7.5-GenHack3.jar",
+            "MD5": "17fc09fbd6d920f1388647cbf5334a5e"
+          }
+        },
+        {
+          "id": "generated.forgemod:SpiceOfLife:1.3.11@jar",
+          "name": "The Spice of Life",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 195269,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/SpiceOfLife-mc1.7.10-1.3.11.jar",
+            "MD5": "3e1baa97b5856dd99a5b56856494f274"
+          }
+        },
+        {
+          "id": "generated.forgemod:StorageDrawers:1.7.10-1.10.9@jar",
+          "name": "Storage Drawers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 589456,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/StorageDrawers-1.7.10-1.10.9.jar",
+            "MD5": "6fe615f1a9ff94dfe1b0641f1fc9fd18"
+          }
+        },
+        {
+          "id": "generated.forgemod:TabulaRasa:1.0.1@jar",
+          "name": "Tabula Rasa",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 33600,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/TabulaRasa-[1.7.10]1.0.1-3-Blight4.jar",
+            "MD5": "34424fb90afb8faa586197f8f4486720"
+          }
+        },
+        {
+          "id": "generated.forgemod:playerzombiemod:1@jar",
+          "name": "Tainted Players",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 199031,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/TaintedPlayers-v1.1-1.7.10.jar",
+            "MD5": "47463148bd0190bba41ca3b2f6ab8979"
+          }
+        },
+        {
+          "id": "de.matthiasmann.tcbotaniaexoflame.core:TCBotaniaExoflame:1.4@jar",
+          "name": "TCBotaniaExoflame",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15477,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/TCBotaniaExoflame-1.7.10-1.4.jar",
+            "MD5": "4675b2a6807994976b5f834478e659cb"
+          }
+        },
+        {
+          "id": "generated.forgemod:tcinventoryscan:1.0.11@jar",
+          "name": "TC Inventory Scanning",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 17202,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/tcinventoryscan-mc1.7.10-1.0.11.jar",
+            "MD5": "0d5158557116916a4a14f749c745ef54"
+          }
+        },
+        {
+          "id": "org.spongepowered.asm.launch:tcneiadditions:a2f7577@jar",
+          "name": "Thaumcraft NEI Additions",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 91829,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/tcneiadditions-a2f7577.jar",
+            "MD5": "62fecd752d25cdf0f4987d55fa1d6848"
+          }
+        },
+        {
+          "id": "generated.forgemod:tcnodetracker:1.7.10-1.1.2@jar",
+          "name": "TC Node Tracker",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 116878,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/tcnodetracker-1.7.10-1.1.2.jar",
+            "MD5": "fc34a6af72eeabfe0dd8be7934a3bc67"
+          }
+        },
+        {
+          "id": "generated.forgemod:TConstruct:1.8.8@jar",
+          "name": "Tinkers' Construct",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5601409,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/TConstruct-1.7.10-1.8.8.jar",
+            "MD5": "7680e41907c053537b890c67e02db733"
+          }
+        },
+        {
+          "id": "generated.forgemod:TerrainControl:2.8.0-colored-lockhack-spawnfix@jar",
+          "name": "Terrain Control",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 573899,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/terraincontrol-2.8.0-colored-lockhack-spawnfix.jar",
+            "MD5": "f16d6d5ada6c4574e9892a79d18730d8"
+          }
+        },
+        {
+          "id": "thaumcraft.codechicken.core.launch:Thaumcraft:1.7.10-4.2.3.5@jar",
+          "name": "Thaumcraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 12565807,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/Thaumcraft-1.7.10-4.2.3.5.jar",
+            "MD5": "17f2e60dabd4961c9a3a2dad3ad6528a"
+          }
+        },
+        {
+          "id": "net.glease.tc4tweak.asm:tc4tweak:1.5.15@jar",
+          "name": "TC4 Tweak",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 227419,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/Thaumcraft4Tweaks-1.5.15.jar",
+            "MD5": "a3dc304a625239089dae6d0c47c2b3d5"
+          }
+        },
+        {
+          "id": "generated.forgemod:thaumcraftneiplugin:1.7.10-1.7a@jar",
+          "name": "Thaumcraft NEI Plugin",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 68794,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/thaumcraftneiplugin-1.7.10-1.7a.jar",
+            "MD5": "f71559fa64c1996b03e796b660914637"
+          }
+        },
+        {
+          "id": "thaumicenergistics.fml:thaumicenergistics:1.5.4-GTNH@jar",
+          "name": "Thaumic Energistics",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1728891,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/thaumicenergistics-1.5.4-GTNH.jar",
+            "MD5": "6d554c70defadd92a2ade2ee459686ef"
+          }
+        },
+        {
+          "id": "thaumic.tinkerer.preloader:ThaumicTinkerer:2.5-1.7.10@jar",
+          "name": "Thaumic Tinkerer",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2176406,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/ThaumicTinkerer-blight-2.5.2-1.7.10.jar",
+            "MD5": "924595450dddce5e71802424fa21ead3"
+          }
+        },
+        {
+          "id": "generated.forgemod:ThermalDynamics:1.2.1@jar",
+          "name": "Thermal Dynamics",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 632485,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/ThermalDynamics-[1.7.10]1.2.1-172.jar",
+            "MD5": "156ea02d8bb4b2ab948f8a5aa6bdb99f"
+          }
+        },
+        {
+          "id": "generated.forgemod:ThermalExpansion:4.1.5@jar",
+          "name": "Thermal Expansion",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2614932,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/ThermalExpansion-[1.7.10]4.1.5-248.jar",
+            "MD5": "8c0ca9e6cc197a13e6cdbaf53b8d60f5"
+          }
+        },
+        {
+          "id": "generated.forgemod:ThermalFoundation:1.2.6@jar",
+          "name": "Thermal Foundation",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2316321,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/ThermalFoundation-[1.7.10]1.2.6-118.jar",
+            "MD5": "cc29ba7f9164bb5c78cee67a3a23a81d"
+          }
+        },
+        {
+          "id": "generated.forgemod:TiCTooltips:1.2.4@jar",
+          "name": "TiC Tooltips",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 46699,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/TiCTooltips-mc1.7.10-1.2.4.jar",
+            "MD5": "46aec5e72a6b43ffa06550b330a9a751"
+          }
+        },
+        {
+          "id": "generated.forgemod:TMechworks:0.2.15.106@jar",
+          "name": "Tinkers' Mechworks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 221769,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/TMechworks-1.7.10-0.2.15.106.jar",
+            "MD5": "651aa328689ae7e48b763c17d829a0e3"
+          }
+        },
+        {
+          "id": "generated.forgemod:TooMuchLoot:4.0.1@jar",
+          "name": "TooMuchLoot",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 22551,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/TooMuchLoot-1.7.10-4.0.1.B0.jar",
+            "MD5": "e25c1cf4bdf718f9984ed643a0530475"
+          }
+        },
+        {
+          "id": "generated.forgemod:translocator:1.7.10-1.1.2.16-universal@jar",
+          "name": "Translocator",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 161165,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/Translocator-1.7.10-1.1.2.16-universal.jar",
+            "MD5": "541e87b5d6f522415f8d9a05811377d8"
+          }
+        },
+        {
+          "id": "generated.forgemod:UBCOres:1.7.10-0.2.9.4@jar",
+          "name": "UBC Ore Registrar",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 223864,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/UBCOres-1.7.10-0.2.9.4.jar",
+            "MD5": "90b28e6e43b5c10493fb7ae53781ac45"
+          }
+        },
+        {
+          "id": "generated.forgemod:UndergroundBiomes:0.8.beta57@jar",
+          "name": "Underground Biomes Constructs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 678604,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/UndergroundBiomesConstructs-1.7.10-0.8-beta49.jar",
+            "MD5": "bdc381e445ca14e0d45ce37d2bdeaee1"
+          }
+        },
+        {
+          "id": "generated.forgemod:waila:1.5.10_1.7.10@jar",
+          "name": "Waila",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 544821,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/Waila-1.5.10_1.7.10.jar",
+            "MD5": "eeb36775188e70faa1c5ecd84f80076c"
+          }
+        },
+        {
+          "id": "generated.forgemod:WailaHarvestability:1.1.6@jar",
+          "name": "Waila Harvestability",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 28800,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/WailaHarvestability-mc1.7.10-1.1.6.jar",
+            "MD5": "e9d81089ddec3da20f0bb144e7beb4da"
+          }
+        }
+      ]
+    }
+  ]
+}

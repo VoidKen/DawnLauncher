@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///C:/Users/mojoh/Documents/Dawn/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "Blightfall (Minecraft 1.7.10)",
+    "description": "Blightfall Running Minecraft 1.7.10 (Forge v10.13.4.1614)",
+    "icon": "",
+    "address": "voidserver.kinetic.host",
+    "discord": {
+      "shortId": "Blightfall",
+      "largeImageText": "Blightfall",
+      "largeImageKey": "voidshardcore"
+    },
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "forge": {
+    "version": "10.13.4.1614"
+  },
+  "untrackedFiles": []
+}

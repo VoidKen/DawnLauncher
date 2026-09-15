@@ -1,0 +1,7 @@
+These config files have been altered since the world was generated. Attempting to create a new world with these configs will not work properly.
+
+The original configs were altered versions of configs written by Stephan "MySource", a former developer of Terrain Control. At his request, we have chosen to cease redistributing configs that were capable of generating the terrain you see in Blightfall.
+
+If you are a server owner, and need the original configs for any reason, please contact Stephan at swia@gmx.de. With his permission, the Technic Team will happily send you the configs necessary to regenerate the world.
+
+Failing that, the remaining information in these configs are enough to play Blightfall using the pre-shipped map with no problems.

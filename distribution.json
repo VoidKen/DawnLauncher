@@ -206,6 +206,16 @@
           ]
         },
         {
+          "id": "generated.forgemod:bspkrsCore:6.16@jar",
+          "name": "BspkrsCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 198525,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/[1.7.10]bspkrsCore-universal-6.16.jar",
+            "MD5": "e77344bda12bd0b91e01dfbb00a653f0"
+          }
+        },
+        {
           "id": "generated.forgemod:StatusEffectHUD:1.27@jar",
           "name": "StatusEffectHUD",
           "type": "ForgeMod",
@@ -303,6 +313,16 @@
             "size": 6567165,
             "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/Automagy-1.7.10-0.28.2.jar",
             "MD5": "0d1b46683a9c69a59368406b7db4671f"
+          }
+        },
+        {
+          "id": "generated.forgemod:Baubles:1.7.10-1.0.1.10@jar",
+          "name": "Baubles",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 95415,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/Baubles-1.7.10-1.0.1.10.jar",
+            "MD5": "0e711d6535970f62d4964edaa26f4623"
           }
         },
         {
@@ -446,6 +466,16 @@
           }
         },
         {
+          "id": "generated.forgemod:codechickenlib:1.1.10@jar",
+          "name": "CodeChickenLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 310259,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/CodeChickenLib-1.1.10.jar",
+            "MD5": "86f39d4d28b3614acdbdccc5eaedf467"
+          }
+        },
+        {
           "id": "cofh.asm:CoFHCore:3.1.4@jar",
           "name": "CoFH Core",
           "type": "ForgeMod",
@@ -453,6 +483,26 @@
             "size": 1230511,
             "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/CoFHCore-[1.7.10]3.1.4-329.jar",
             "MD5": "de527c101a1f2c62203f99515f3d0957"
+          }
+        },
+        {
+          "id": "generated.forgemod:commons:codec-1.9@jar",
+          "name": "Commons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 263965,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/commons-codec-1.9.jar",
+            "MD5": "75615356605c8128013da9e3ac62a249"
+          }
+        },
+        {
+          "id": "generated.forgemod:commons:compress-1.8.1@jar",
+          "name": "Commons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 365552,
+            "url": "https://raw.githubusercontent.com/VoidKen/DawnLauncher/main/servers/Blightfall-1.7.10/forgemods/required/commons-compress-1.8.1.jar",
+            "MD5": "d862e30ff6b5d78264677dcd6507abb8"
           }
         },
         {

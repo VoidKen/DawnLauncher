@@ -1,0 +1,21 @@
+name: Supabase keep-alive
+
+# Free Supabase projects pause after about a week without activity.
+# This pings the share-code table every 3 days so it never goes idle.
+on:
+  schedule:
+    - cron: '17 6 */3 * *'
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Query the packs table
+        run: |
+          code=$(curl -s -o /dev/null -w '%{http_code}' \
+            -H "apikey: sb_publishable_hqTvDlOac9dogIfKEZ8Kiw_o2dZ5BsX" \
+            -H "Authorization: Bearer sb_publishable_hqTvDlOac9dogIfKEZ8Kiw_o2dZ5BsX" \
+            "https://kbggkguslsdzlgwnbkgt.supabase.co/rest/v1/packs?select=code&limit=1")
+          echo "HTTP $code"
+          if [ "$code" -lt 200 ] || [ "$code" -ge 300 ]; then exit 1; fi

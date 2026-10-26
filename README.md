@@ -157,4 +157,4 @@ Join the [Discord][discord] for help or to share packs.
 [mainprocess]: https://electronjs.org/docs/tutorial/application-architecture#main-and-renderer-processes 'Main Process'
 [rendererprocess]: https://electronjs.org/docs/tutorial/application-architecture#main-and-renderer-processes 'Renderer Process'
 [chromedebugger]: https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome 'Debugger for Chrome'
-[discord]: https://discord.gg/F7QPRcPH6z 'Discord'
+[discord]: https://discord.gg/43GmU3kMt 'Discord'

@@ -5,7 +5,7 @@
 <p align="center">
 <a href="https://github.com/VoidKen/DawnLauncher/releases"><img src="https://img.shields.io/github/downloads/VoidKen/DawnLauncher/total.svg?style=for-the-badge" alt="downloads"></a>
 <a href="https://github.com/VoidKen/DawnLauncher/releases/latest"><img src="https://img.shields.io/github/v/release/VoidKen/DawnLauncher?style=for-the-badge" alt="latest release"></a>
-<a href="https://discord.gg/F7QPRcPH6z"><img src="https://img.shields.io/badge/Discord-join-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="discord"></a>
+<a href="https://discord.gg/43GmU3kMt"><img src="https://img.shields.io/badge/Discord-join-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="discord"></a>
 </p>
 
 <p align="center">Build your own modded Minecraft packs, play them with one click, and share them with friends using a short code. Java, Forge, Fabric and NeoForge are handled for you.</p>

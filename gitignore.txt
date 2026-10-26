@@ -1,0 +1,14 @@
+# Dependencies and build output
+node_modules/
+dist/
+out/
+
+# CurseForge API key (never commit)
+app/assets/js/packs/curseforge-key.json
+
+# Secrets and local files
+.env
+*.log
+.DS_Store
+Thumbs.db
+.vscode/

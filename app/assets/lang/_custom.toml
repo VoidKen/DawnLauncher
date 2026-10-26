@@ -1,0 +1,20 @@
+# Custom Language File for Launcher Customizer
+
+[ejs.app]
+title = "Dawn Launcher"
+
+[ejs.landing]
+mediaGitHubURL = "https://voidversestore.vercel.app/"
+mediaXURL = "#"
+mediaInstagramURL = "#"
+mediaYouTubeURL = "https://www.youtube.com/@Voidverse13"
+mediaDiscordURL = "https://discord.gg/eRuCMD43ae"
+
+[ejs.settings]
+sourceGithubLink = "https://github.com/VoidKen/DawnLauncher"
+supportLink = "https://github.com/VoidKen/DawnLauncher/issues"
+
+[ejs.welcome]
+welcomeHeader = "WELCOME TO DAWN LAUNCHER"
+welcomeDescription = "Build your own modpack from thousands of Modrinth mods, play it with one click, and share it with friends using a short code. Pick a Minecraft version, choose Fabric, Forge or NeoForge, add the mods you like, and the launcher takes care of the rest."
+welcomeDescCTA = "Your first pack is just a few clicks away."

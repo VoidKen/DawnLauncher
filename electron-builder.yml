@@ -1,0 +1,58 @@
+appId: 'DawnLauncher'
+productName: 'Dawn Launcher'
+artifactName: '${productName}-setup-${version}.${ext}'
+
+copyright: 'Copyright © 2026 VoidKen'
+
+asar: true
+compression: 'maximum'
+
+files:
+  - '!{dist,.gitignore,.vscode,docs,dev-app-update.yml,.nvmrc,eslint.config.mjs}'
+
+extraResources:
+  - 'libraries'
+
+# Windows Configuration
+win: 
+  icon: 'app/assets/images/SealCircle.ico'
+  target: 
+    - target: 'nsis'
+      arch: 'x64'
+
+# Publish Configuration (for auto-updates via GitHub Releases)
+publish:
+  provider: github
+  owner: VoidKen
+  repo: DawnLauncher
+
+# Windows Installer Configuration
+nsis:
+  oneClick: false
+  perMachine: false
+  allowElevation: true
+  allowToChangeInstallationDirectory: true
+
+# macOS Configuration
+mac:
+  target:
+    - target: 'dmg'
+      arch:
+        - 'x64'
+        - 'arm64'
+  artifactName: '${productName}-setup-${version}-${arch}.${ext}'
+  category: 'public.app-category.games'
+
+# Linux Configuration
+linux: 
+  target: 'AppImage'
+  maintainer: 'VoidKen'
+  vendor: 'VoidKen'
+  synopsis: 'Modded Minecraft Launcher'
+  description: 'Custom launcher which allows users to join modded servers. All mods, configurations, and updates are handled automatically.'
+  category: 'Game'
+
+
+directories:
+  buildResources: 'build'
+  output: 'dist'

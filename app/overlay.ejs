@@ -1,0 +1,147 @@
+<div id="overlayContainer" style="display: none;">
+    <div id="serverSelectContent" style="display: none;">
+        <span id="serverSelectHeader"><%- lang('overlay.serverSelectHeader') %></span>
+        <div id="serverSelectList">
+            <div id="serverSelectListScrollable">
+                <!-- Server listings populated here. -->
+            </div>
+        </div>
+        <div id="serverSelectActions">
+            <button id="serverSelectConfirm" class="overlayKeybindEnter" type="submit"><%- lang('overlay.serverSelectConfirm') %></button>
+            <div id="serverSelectCancelWrapper">
+                <button id="serverSelectCancel" class="overlayKeybindEsc"><%- lang('overlay.serverSelectCancel') %></button>
+            </div>
+        </div>
+    </div>
+    <div id="packManagerContent" style="display: none;">
+        <span id="packManagerHeader">Mod Packs</span>
+        <div id="pmTabs">
+            <button id="pmTabLibrary" class="pmTabButton" type="button" pmselected>My Packs</button>
+            <button id="pmTabBrowse" class="pmTabButton" type="button">Build a Pack</button>
+            <button id="pmTabCode" class="pmTabButton" type="button">Enter a Code</button>
+            <button id="pmTabImport" class="pmTabButton" type="button">Import</button>
+        </div>
+
+        <div id="pmLibraryPanel" class="pmPanel">
+            <div id="pmLibraryList" class="pmScrollList pmTall"></div>
+            <span id="pmLibraryStatus" class="pmStatus"></span>
+        </div>
+
+        <div id="pmBrowsePanel" class="pmPanel" style="display: none;">
+            <div id="pmPackMeta">
+                <input id="pmPackName" type="text" maxlength="40" placeholder="Pack name"/>
+                <div id="pmVersionWrap">
+                    <input id="pmMcVersion" type="text" placeholder="Minecraft version" autocomplete="off"/>
+                    <div id="pmVersionList" style="display: none;"></div>
+                </div>
+                <select id="pmLoader">
+                    <option value="fabric">Fabric</option>
+                    <option value="forge">Forge</option>
+                    <option value="neoforge">NeoForge</option>
+                </select>
+            </div>
+            <div id="pmFilterRow">
+                <div class="pmSegment" id="pmSourceFilter">
+                    <button type="button" data-source="all" pmselected>All</button>
+                    <button type="button" data-source="modrinth">Modrinth</button>
+                    <button type="button" data-source="curseforge">CurseForge</button>
+                </div>
+                <div class="pmSegment" id="pmKindFilter">
+                    <button type="button" data-kind="mod" pmselected>Mods</button>
+                    <button type="button" data-kind="modpack">Modpacks</button>
+                </div>
+            </div>
+            <div id="pmSearchRow">
+                <input id="pmSearchQuery" type="text" placeholder="Search (leave empty for popular)" autocomplete="off"/>
+            </div>
+            <span class="pmListLabel">Search Results</span>
+            <div id="pmResultsList" class="pmScrollList"></div>
+            <span class="pmListLabel">Your Pack <span id="pmPackCount"></span></span>
+            <div id="pmPackList" class="pmScrollList"></div>
+            <div id="pmAdvancedToggleRow">
+                <button id="pmAdvancedToggle" type="button">Advanced options</button>
+            </div>
+            <div id="pmAdvancedMeta" style="display: none;">
+                <input id="pmLoaderVersion" type="text" placeholder="Loader version (optional - latest/recommended is used if empty)"/>
+                <input id="pmJavaExecutable" type="text" placeholder="Java path for installing Forge/NeoForge (optional - found automatically)"/>
+            </div>
+            <div id="pmBuildRow">
+                <button id="pmGenerateCodeButton" type="button">Create Pack</button>
+            </div>
+            <span id="pmBuildStatus" class="pmStatus"></span>
+            <div id="pmCodeResult" style="display: none;">
+                <span>Share this code with your friends:</span>
+                <span id="pmGeneratedCode"></span>
+                <button id="pmCopyCodeButton" type="button">Copy code</button>
+            </div>
+        </div>
+
+        <div id="pmCodePanel" class="pmPanel" style="display: none;">
+            <span class="pmHint">Got a code from a friend? Enter it to get the exact same pack.</span>
+            <input id="pmRedeemCode" type="text" maxlength="12" placeholder="XXXX-XXXX" autocomplete="off"/>
+            <button id="pmRedeemButton" type="button">Load Pack</button>
+            <span id="pmRedeemStatus" class="pmStatus"></span>
+        </div>
+
+        <div id="pmImportPanel" class="pmPanel" style="display: none;">
+            <div id="pmDropZone" tabindex="0">
+                <span id="pmDropTitle">Drop a modpack here</span>
+                <span id="pmDropSub">or click to browse. Works with Modrinth (.mrpack), CurseForge (.zip) and zips of mod .jar files.</span>
+            </div>
+            <div id="pmImportCard" style="display: none;">
+                <span id="pmImportBadge"></span>
+                <div id="pmImportInfo">
+                    <span id="pmImportName"></span>
+                    <span id="pmImportMeta"></span>
+                </div>
+                <button id="pmImportChange" type="button">Change</button>
+            </div>
+            <div id="pmImportJarOptions" style="display: none;">
+                <input id="pmImportMcVersion" type="text" placeholder="Minecraft version, e.g. 1.20.1" autocomplete="off"/>
+                <select id="pmImportLoader">
+                    <option value="fabric">Fabric</option>
+                    <option value="forge">Forge</option>
+                    <option value="neoforge">NeoForge</option>
+                </select>
+            </div>
+            <div id="pmImportProgress" style="display: none;">
+                <div id="pmImportBar"><div id="pmImportBarFill"></div></div>
+                <span id="pmImportPercent">0%</span>
+            </div>
+            <span id="pmImportStatus" class="pmStatus"></span>
+            <div id="pmImportActions">
+                <button id="pmImportButton" type="button" disabled>Import Pack</button>
+            </div>
+        </div>
+
+        <div id="packManagerActions">
+            <button id="packManagerClose" class="overlayKeybindEsc overlayKeybindEnter" type="button">Close</button>
+        </div>
+    </div>
+    <div id="accountSelectContent" style="display: none;">
+        <span id="accountSelectHeader"><%- lang('overlay.accountSelectHeader') %></span>
+        <div id="accountSelectList">
+            <div id="accountSelectListScrollable">
+                <!-- Accounts populated here. -->
+            </div>
+        </div>
+        <div id="accountSelectActions">
+            <button id="accountSelectConfirm" class="overlayKeybindEnter" type="submit"><%- lang('overlay.accountSelectConfirm') %></button>
+            <div id="accountSelectCancelWrapper">
+                <button id="accountSelectCancel" class="overlayKeybindEsc"><%- lang('overlay.accountSelectCancel') %></button>
+            </div>
+        </div>
+    </div>
+    <div id="overlayContent">
+        <span id="overlayTitle">Lorem Ipsum:<br>Finis Illud</span>
+        <span id="overlayDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud..</span>
+        <div id="overlayActionContainer">
+            <button id="overlayAcknowledge" class="overlayKeybindEnter">Conare Iterum</button>
+            <div id="overlayDismissWrapper">
+                <button id="overlayDismiss" style="display: none;" class="overlayKeybindEsc">Dismiss</button>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/scripts/overlay.js"></script>
+    <script src="./assets/js/scripts/packmanager.js"></script>
+</div>
